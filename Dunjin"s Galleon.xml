@@ -1,0 +1,15 @@
+<element name="Dunjin's Galleon" type="Item" source="Homebrew" id="ID_ABCII_HOMEBREW_ITEM_DUNJIN'S_GALLEON">
+		<description>
+		        <p class="flavor">A ship thats been through everything from wars that shattered the seas to storms that would tear warships into heaps of drift wood. This ship, much like Dunjin himself, is a living testament to how tough the seas are and how tough you must be to not just survive, but thrive in them.</p>
+            
+            <p class="indent"><b><i>Sructure and Build</i></b> This Galleon is tall but oddly stout, making it very mobile despite its height. it has four floors: the deck, the Bridge, </p>
+            <p class="indent"><b><i>Sructure and build</i></b> </p>
+            <p class="indent"><b><i>Sructure and build</i></b> </p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">10000</set>
+			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element> 
