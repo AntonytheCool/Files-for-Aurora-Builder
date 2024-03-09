@@ -3,7 +3,11 @@
 		        <p class="flavor">A ship thats been through everything from wars that shattered the seas to storms that would tear warships into heaps of drift wood. This ship, much like Dunjin himself, is a living testament to how tough the seas are and how tough you must be to not just survive, but thrive in them.</p>
             
             <p class="indent"><b><i>Sructure and Build</i></b> This Galleon is tall but oddly stout, making it very mobile despite its height. it has three floors: the upper deck, the main deck, and the lower deck. Along with those it has a forecastle, a quarterdeck, a aftercastle, a berth, a galley, a hold and an armory </p>
-            <p class="indent"><b><i>Weaponry</i></b>One would be a fool to sail the seas unarmed, Dunjin isn't one so he has fitted his ship with intense firepower capable of challenging ships of larger sizes and crews. Dunjins Galleon come equipped with six cannons (two on the forecastle, two on the main deck, and two on the aftercastle) along with two ballista (one on the forecastle, the other on the quarter deck.) And last but not least a catapult on the main deck capable of smashing through any ship with an accurate shot.</p>
+            <p class="indent"><b><i>Weaponry</i></b>One would be a fool to sail the seas unarmed, Dunjin isn't one so he has fitted his ship with intense firepower capable of challenging ships of larger sizes and crews. Dunjins Galleon comes equipped with six cannons (two on the forecastle, two on the main deck, and two on the aftercastle) along with two ballista (one on the forecastle, the other on the quarter deck.) And last but not least a catapult on the main deck.</p>
+	 <ul>
+			<li>The cannons have +6 to hit one target within 300 to 1200 ft dealing 8d10 bludgeoning damage. it takes one action to load the cannon and another to fire</li>
+		 	<li>The ballistas have a +6 to hit one target within a range of 150 to 600 Ft dealing 5d10 piercing damage. the ballista does an extra d8 </li>
+     	</ul>	
             <p class="indent"><b><i>Sructure and build</i></b> </p>
 		</description>
 		<setters>
