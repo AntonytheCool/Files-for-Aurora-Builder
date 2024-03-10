@@ -8,21 +8,21 @@
 <element name="Dunjin's Galleon" type="Item" source="Homebrew" id="ID_ABCII_HOMEBREW_ITEM_DUNJIN'S_GALLEON">
 		<description>
 		        <p class="flavor">A ship thats been through everything from wars that shattered the seas to storms that would tear warships into heaps of drift wood. This ship, much like Dunjin himself, is a living testament to how tough the seas are and how tough you must be to not just survive, but thrive in them.</p>
-            
             <p class="indent"><b><i>STRUCTURE AND BUILD. </i></b> This Galleon is tall but oddly stout, making it very mobile despite its overall size. it has three floors: the Main deck, the lower deck, and the hold. On the main deck there is a forecastle towards the bow and a quarterdeck towards the stern, underneath those are the berth and the captains quarters respectively. in the lower deck is the galley, the medical cabin, and the workbench. The hold is used mainly for storage but it also has a large book shelf and a desk for writing.</p>
-
+	<ul>
 			<li>The hull of the ship has an AC of 18 and a damage threshhold of 20 with 650 hit point, if the hull is broken the ship sinks.</li>
-            
+	</ul>	
 	    <p class="indent"><b><i>WEAPONRY. </i></b>One would be a fool to sail the seas unarmed, Dunjin isn't one so he has fitted his ship with intense firepower capable of challenging ships of larger sizes and crews. Dunjins Galleon comes equipped with six cannons (two on the forecastle, two on the main deck, and two on the aftercastle) along with two ballista (one on the forecastle, the other on the quarter deck.) And last but not least a catapult on the main deck.</p>
 	 <ul>
 			<li>The cannons have +4 to hit one target within 150 to 600 Ft dealing 8d10 bludgeoning damage. it takes one action to load the cannon and another to fire. the cannons have an AC of 15 with 75 hit points</li>
 		 	<li>The ballistas have a +6 to hit one target within a range of 200 to 800 Ft dealing 4d10 piercing damage. the ballistas deal an extra d10 damage to enemy sails. the ballistas have an AC of 15 with 50 hit points</li>
 		 	<li>The catapult has a +5 to hit one target within a range of 300 to 1200 Ft dealing 5d10 bludgeoning damage. The catapult deals an extra d10 to enemy hulls. the catapult has an AC of 15 with 100 hit points</li>
-     	</ul>	
-            
+     	</ul>	  
 	    <p class="indent"><b><i>SAILING. </i></b>Being a large vessel, Dunjin's galleon is fitted with three masts, two on the forecastle and tho the on the quarterdeck, and the last on the main deck being the largest.</p>
+	<ul>		
 			<li>The sails have an AC of 12 with 100 hit points each. 25 damage done to any of them lowers the move speed of the ship by 5, if all of the sails are destroyed the ship can no longer move until they are fixed.</li>
 			<li>At full sails, dunjins Galleon has a move speed of 70, if against the wind it has a move speed of 15 and at no wind it has a move speed of 45. the speed of the ship can be increased by rowing manually by 10-30 depending on how many crewmates row, they must however make a CON save and on failiure gain a point of exhaustion.</li>
+	</ul>	
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
