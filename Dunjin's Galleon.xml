@@ -15,7 +15,7 @@
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
-			<set name="cost" currency="gp">0</set>
+			<set name="cost" currency="gp">1</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
 			<set name="type">Vehicle</set>
 		</setters>
