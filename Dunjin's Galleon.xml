@@ -7,7 +7,7 @@
 	</info>	
 <element name="Dunjin's Galleon" type="Item" source="Homebrew" id="ID_ABCII_HOMEBREW_ITEM_DUNJIN'S_GALLEON">
 		<description>
-		        <p class="flavor">A ship thats been through everything from wars that shattered the seas to storms that would tear warships into heaps of drift wood. This ship, much like Dunjin himself, is a living testament to how tough the seas are and how tough you must be to not just survive, but thrive in them.</p>
+		        <p class="flavor">A ship thats been through everything from wars that shattered the seas to storms that would tear warships into heaps of drift wood. This ship, much like Dunjin himself, is a living testament of how tough you must be to not just survive, but thrive in the War Sundered Seas.</p>
            
 	    <p class="indent"><b><i>STRUCTURE AND BUILD. </i></b> This Galleon is tall but oddly stout, making it very mobile despite its overall size. it has three floors: the Main deck, the lower deck, and the hold. On the main deck there is a forecastle towards the bow and a quarterdeck towards the stern, underneath those are the berth and the captains quarters respectively. in the lower deck is the galley, the medical cabin, and the workbench. The hold is used mainly for storage but it also has a large book shelf and a desk for writing.</p>
 	<ul>
