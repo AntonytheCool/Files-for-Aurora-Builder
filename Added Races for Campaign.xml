@@ -177,6 +177,7 @@
 				<select type="Racial Trait" name="Crustacean Build, Appendage" supports="Crustacean Build, Appendage" />
 				<select type="Racial Trait" name="Crustacean Build, Appendage" supports="Crustacean Build, Appendage" />
 			</rules>
+		</element>
 		<element name="Crushing Claws." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_CRUSHINGCLAWS">
 			<supports>Crustacean Build, Claws</supports>
 			<description>
