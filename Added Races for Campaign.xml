@@ -115,51 +115,166 @@
 			<h4>SOCIETAL PREJUDICES</h4>
 			<p>On the surface, crabfolk are taken with great caution due to their odd and mildly terrifying nature. Inns have been known to outright refuse crabfolk service out of fear, racism, or both. This bothers the crabfolk little, as they have grown used to social segregation due to their time in their deep-sea canyons.</p>
 			<h4>PHYSIOLOGY</h4>
-			<p>Crabfolk are an extremely odd race that tend to be a hodge podge of serveral crustacean traits and appendages, to pleons that improve health and swimming speeds, to antannae that give extra sensory abilities, insectoid esque legs that improve land mobility and climbing, to a whole host of claws that can crush, rend, punch, and even condense air and water to create a powerful projectile. The only trait universal to all Crabfolk are eye stalks that have beady black eyes along with a small set of clawed arms under there main claws that are used for delicate action like eating and writing.</p>
+			<p>Crabfolk are an extremely odd race that tend to be a hodge podge of serveral crustacean traits and appendages, no two crabfolk look exactly alike. the only thing Crabfolk seem to shair universally are eye stalks with large beady eyes, and two smaller clawed arms that used for more delicate things like writing and eating.</p>
 		<ul>
-				<li>The secondary set of claws can't weild any weapons and magic items along with only lifting below or at 5 pounds.</li>
+				<li>The secondary set of claws can't weild any weapons and magic items along with only lifting below or at 5 pounds.</li>	
 		</ul>
-			<p class="indent"> Choose which type of claws your Crabfolk character has:</p>
-			<p><strong>Crushing Claws.</strong>Your claws are large and blunted with rigdes all along the inside that gives your unarmed strikes 1d4 worth of bludgeoning damage. You also add +3 to any grapple you attempt to make.</p>
-			<p><strong>Rending Claws.</strong>Your claws are pointed ane more narrow with sharp spikes along the inside that gives your unamred strikes that deal 1d8 worth of slashing damage.</p>
-			<p><strong>Punching Claws.</strong>Your claws are completley blunted and can't be used to grab or hold anything but deal 1d8 worth of bludgeoning damage.
-			<p><strong>Shooting Claws.</strong>Your claws can close at such extreme speeds it condenses the air (or water) in your claws it shoots out creating a projectile that can travel up 10 Ft away and deals 1d6 force damage.</p>
-			<p><strong>Dextrous Claws.</strong>
 			<h4>CRABFOLK TRAITS</h4>
 			<p>Your crabfolk character has the following racial traits:</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Crabfolk are very hearty due to their rough living. Your Constitution score increases by 2, and your Strength score increases by 1.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Crabfolk are very hearty due to their rough living. Your Constitution score is increased by 2, and your Strength or dexterity score increases by 1.</p>
 			<p class="indent"><strong><em>Age.</em></strong>Crabfolk are considered adults by their late teens and can live for around 150 years.</p>
 			<p class="indent"><strong><em>Alignment.</em></strong>Crabfolk can take nearly any path in life that they feel suits them, though most tend to be neutral.</p>
-			<p class="indent"><strong><em>Size.</em></strong>Crabfolk usually stand at about 6 feet. Your size is Medium.</p>
+			<p class="indent"><strong><em>Size.</em></strong>Crabfolk can stand anywhere from 4 to 6 feet tall, though some older ones can get taller. Your size is Medium.</p>
 			<p class="indent"><strong><em>Speed.</em></strong>Your base walking speed is 25 feet. You also have a swimming speed of 30 feet.</p>
 			<p class="indent"><strong><em>Breath of the Sea.</em></strong> You can breathe both air and water.</p>
-			<p class="indent"><strong><em>Natural Armor.</em></strong> While you wear no armor, your AC is equal to 13 + your Constitution modifier. You may wield a shield and still gain this benefit.</p>		
-			<p class="indent"><strong><em>Rending Claws.</em></strong>Your unarmed strikes inflict slashing damage equal to 1d6 + your Strength modifier.</p>
+			<p class="indent"><strong><em>Natural Armor.</em></strong> While you wear no armor, your AC is equal to 13 + your Constitution modifier.</p>		
+			<p class="indent"><strong><em>Crustacean Build</em></strong>You get a wide range of claws and appendages you get to choose from:</p>
+			<p class="indent"> Choose which type of claws your Crabfolk character has:</p>
+			<p><strong>Crushing Claws.</strong>Your claws are large and blunted with rigdes all along the inside that gives your unarmed strikes 1d4 worth of bludgeoning damage, you also add +3 to any grapple you attempt to make. You have proficiency in unarmed strikes.</p>
+			<p><strong>Rending Claws.</strong>Your claws are pointed ane more narrow with sharp spikes along the inside that gives your unamred strikes that deal 1d8 worth of slashing damage, you may also use your dexterity modifier for unarmed strike rolls. you have proficiency in unarmed strikes.</p>
+			<p><strong>Punching Claws.</strong>Your claws are completley blunted and can't be used to grab or hold anything but deal 1d8 worth of bludgeoning damage and gain +1 into strength.you have proficiency in unarmed strikes.</p>
+			<p><strong>Shooting Claws.</strong>Your claws can snap at such extreme speeds it condenses the air (or water) in your claws it shoots out creating a projectile that can travel up 15 Ft away and deals 1d6 force damage.</p>
+			<p><strong>Dextrous Claws.</strong>Your claws are small but incredibly articulated, allowing you to use them as if they were normal hands. they can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands but lose proficiency in unarmed strikes.</p>
+			<p class="indent">You also gain a choice of two aditional appendages:</p>
+			<p><strong>Pleon</strong>you gain a large, flat tail sticking from your back that gives you 5 aditional movespeed in water an +1 in constitution at the cost of -2 AC,</p>
+			<p><strong>Entannae</strong>You have a pair of entennae either on your head or on your face that gives you proficiency in perception at the cost of -1 AC.</p>
+			<p><strong>Insectoid Leg(s)</strong>You can have either one, or many insectoid-like legs that give you an additional 10 climb speed at the cost of -1 dexterity.</p>
 			<p class="indent"><strong><em>Dweller of the Deeps.</em></strong> Accustomed to the deepest seas, you ignore any of the drawbacks caused by a deep, underwater environment.</p>
 			<p class="indent"><strong><em>Languages.</em></strong>You can speak, read, and write Common and Aquan.</p>
 		</description>
 		<rules>
 			<stat name="constitution" value="2" />
-			<stat name="strength" value="1" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (Crabfolk)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY"
 			<grant type="Size" id="ID_SIZE_MEDIUM" />	
 			<stat name="innate speed" value="25" bonus="base" />	
 			<stat name="innate speed:swim" value="30" bonus="base" />
-			<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_RENDINGCLAWS" />
+			<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_CRUSTACEANBUILD" />
 			<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_NATURALARMOR" />
 			<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_DWELLEROFTHEDEEPS" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<grant type="Language" id="ID_MM_LANGUAGE_AQUAN" />
 		</rules>
 	</element>
-	<element name="Rending Claws." type="Racial Trait" source="HOMEBREW" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_RENDINGCLAWS">
+	<element name="Crustacean Build." type="Racial Trait" source="HOMEBREW" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_CRUSTACEANBUILD">
 		<description>
-			<p>Your unarmed strikes inflict slashing damage equal to 1d6 + your Strength modifier.</p>
+			<p>You get a wide range of claws and appendages you get to choose from, these can be changed once picked:</p>
+			<p class="indent"> Choose which type of claws your Crabfolk character has:</p>
+			<p><strong>Crushing Claws.</strong>Your claws are large and blunted with rigdes all along the inside that gives your unarmed strikes 1d4 worth of bludgeoning damage, you also add +3 to any grapple you attempt to make. You have proficiency in unarmed strikes.</p>
+			<p><strong>Rending Claws.</strong>Your claws are pointed ane more narrow with sharp spikes along the inside that gives your unamred strikes that deal 1d8 worth of slashing damage, you may also use your dexterity modifier for unarmed strike rolls. you have proficiency in unarmed strikes.</p>
+			<p><strong>Punching Claws.</strong>Your claws are completley blunted and can't be used to grab or hold anything but deal 1d8 worth of bludgeoning damage and gain +1 into strength.you have proficiency in unarmed strikes.</p>
+			<p><strong>Shooting Claws.</strong>Your claws can snap at such extreme speeds it condenses the air (or water) in your claws it shoots out creating a projectile that can travel up 15 Ft away and deals 1d6 force damage.</p>
+			<p><strong>Dextrous Claws.</strong>Your claws are small but incredibly articulated, allowing you to use them as if they were normal hands. they can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands.</p>
+			<p class="indent">You also gain a choice of two aditional appendages:</p>
+			<p><strong>Pleon</strong>You have a large, flat tail sticking from your back that gives you 5 aditional movespeed in water an +1 in constitution at the cost of -2 AC.</p>
+			<p><strong>Antannae</strong>You have a pair of Antennae either on your head or on your face that gives you proficiency in perception at the cost of -1 AC.</p>
+			<p><strong>Insectoid Leg(s)</strong>You can have either one, or many insectoid-like legs that give you an additional 10 climb speed at the cost of -1 AC.</p>
 		</description>
 		<sheet>
-			<description>Your unarmed strikes inflict slashing damage equal to 1d6 + {{strength:modifier}}</description>
+			<description>You get a wide range of claws and appendages you get to choose from, these can be changed once picked:</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Crustacean Build, Claws" supports="Crustacean Build, Claws" />
+			<select type="Racial Trait" name="Crustacean Build, Appendage" supports="Crustacean Build, Appendage" />
+			<select type="Racial Trait" name="Crustacean Build, Appendage" supports="Crustacean Build, Appendage" />
+		</rules>
+	<element name="Crushing Claws." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_CRUSHINGCLAWS">
+		<supports>Crustacean Build, Claws</supports>
+		<description>
+			<p>Your claws are large and blunted with rigdes all along the inside that gives your unarmed strikes 1d4 worth of bludgeoning damage, you also add +3 to any grapple you attempt to make. You have proficiency in unarmed strikes.</p>
+		</description>
+		<sheet>
+			<description>Your claws are large and blunted with rigdes all along the inside that gives your unarmed strikes 1d4 worth of bludgeoning damage, you also add +3 to any grapple you attempt to make. You have proficiency in unarmed strikes.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_UNARMED_STRIKE"/>
+		</rules>
+	</element>
+	<element name="Rending Claws." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_RENDINGCLAWS">
+		<supports>Crustacean Build, Claws</supports>
+		<description>
+			<p>Your claws are pointed ane more narrow with sharp spikes along the inside that gives your unamred strikes that deal 1d8 worth of slashing damage, you may also use your dexterity modifier for unarmed strike rolls. you have proficiency in unarmed strikes.</p>
+		</description>
+		<sheet>
+			<description>Your claws are pointed ane more narrow with sharp spikes along the inside that gives your unamred strikes that deal 1d8 worth of slashing damage, you may also use your dexterity modifier for unarmed strike rolls. you have proficiency in unarmed strikes.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_UNARMED_STRIKE" />
+		</rules>
+	</element>
+	<element name="Punching Claws." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_PUNCHINGCLAWS">
+		<supports>Crustacean Build, Claws</supports>
+		<description>
+			<p>Your claws are completley blunted and can't be used to grab or hold anything but deal 1d8 worth of bludgeoning damage and gain +1 into strength.you have proficiency in unarmed strikes.</p>
+		</description>
+		<sheet>
+			<description>Your claws are completley blunted and can't be used to grab or hold anything but deal 1d8 worth of bludgeoning damage and gain +1 into strength.you have proficiency in unarmed strikes.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_UNARMED_STRIKE" />
+			<stat name="Strength" value="1" />
+		</rules>
+	</element>
+	<element name="Shooting Claws." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_SHOOTINGCLAWS">
+		<supports>Crustacean Build, Claws</supports>
+		<description>
+			<p>Your claws can snap at such extreme speeds it condenses the air (or water) in your claws it shoots out creating a projectile that can travel up 15 Ft away and deals 1d6 force damage.</p>
+		</description>
+		<sheet>
+			<description>Your claws can snap at such extreme speeds it condenses the air (or water) in your claws it shoots out creating a projectile that can travel up 15 Ft away and deals 1d6 force damage.</description>
 		</sheet>
 	</element>
-	<element name="Natural Armor" type="Racial Trait" source="Mythic Odysseys of Theros" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_NATURALARMOR">
+	<element name="Dexterous Claws." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_DEXTEROUSCLAWS">
+		<supports>Crustacean Build, Claws</supports>
+		<description>
+			<p>Your claws are small but incredibly articulated, allowing you to use them as if they were normal hands. they can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands</p>
+		</description>
+		<sheet>
+			<description>Your claws are small but incredibly articulated, allowing you to use them as if they were normal hands. they can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PROFICIENCY_SLEIGHT_OF_HAND" />
+		</rules>
+	</element>
+	<element name="Pleon." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_PLEON">
+		<supports>Crustacean Build, Appendage</supports>
+		<description>
+			<p>You have a large, flat tail sticking from your back that gives you 5 aditional movespeed in water an +1 in constitution at the cost of -2 AC.</p>
+		</description>
+		<sheet>
+			<description>You have a large, flat tail sticking from your back that gives you 5 aditional movespeed in water an +1 in constitution at the cost of -2 AC.</description>
+		</sheet>
+		<rules>
+			<stat name="constitution" value="1" />
+			<stat name="ac:Pleon" value="-2" />
+		</rules>
+	</element>
+	<element name="Insectoid Leg(s)." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_INSECTOIDLEG(S)">
+		<supports>Crustacean Build, Appendage</supports>
+		<description>
+			<p>You can have either one, or many insectoid-like legs that give you an additional 10 climb speed at the cost of -1 AC</p>
+		</description>
+		<sheet>
+			<description>You can have either one, or many insectoid-like legs that give you an additional 10 climb speed at the cost of -1 AC</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PROFICIENCY_PERCEPTION" />
+			<stat name="ac:Antannae" value="-1" />
+		</rules>
+	</element>
+	<element name="Pleon." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_PLEON">
+		<supports>Crustacean Build, Appendage</supports>
+		<description>
+			<p>You have a large, flat tail sticking from your back that gives you 5 aditional movespeed in water an +1 in constitution at the cost of -2 AC.</p>
+		</description>
+		<sheet>
+			<description>You have a large, flat tail sticking from your back that gives you 5 aditional movespeed in water an +1 in constitution at the cost of -2 AC.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:climb" value="10" bonus="base" />
+			<stat name="ac:Insectoid Leg(s)" value="-1" />
+		</rules>
+	</element>
+	<element name="Natural Armor." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_NATURALARMOR">
 		<description>
 			<p>While you wear no armor, your AC is equal to 13 + your Constitution modifier. You may wield a shield and still gain this benefit.</p>
 		</description>
