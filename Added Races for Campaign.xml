@@ -10,7 +10,7 @@
 			<p>Autognomes are mechanical beings built by rock gnomes. Sometimes, because of a malfunction or a unique circumstance, an autognome becomes separated from its creator and strikes out on its own.</p>
 			<h4>BUILT FOR WIMSY</h4>
 			<p>An autognome bears a resemblance to its creator, and most autognomes are programmed to speak and understand Gnomish. The internal components used in an autognome’s manufacture can vary wildly; one autognome might have an actual beating heart in its chest cavity, while another might be powered by stardust or intricate clockwork gears.</p>
-			<h5>ODD ORIGINS</h5>
+			<h5>SENTIENT ORIGINS</h5>
 			<p>Roll on the Autognome History table or choose an entry that you like to identify what event set you on the path to adventure. If nothing on the table appeals to you, work with your DM to create an origin story for your character.</p>
 			<table>
 				<thead>
@@ -27,15 +27,15 @@
 			<p>Your autognome character has the following traits. A few of the traits give you a choice; consider how your choice reflects the purpose for which your character was built.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> You increase one ability score by 2, and one other ability score by 1.</p>
 			<p class="indent"><strong><em>Age.</em></strong>Like gnomes, autognomes can live for centuries, typically up to 500 years.</p>
-			<p class="indent"><strong><em>Alignment.</em></strong> Autognomes tend to be built with their own thoughs and opinions seperate from there creators, although their creator and those around them can influence them.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong>Autognomes tend to be built with their own thoughs and opinions seperate from there creators, although their creator and those around them can influence them.</p>
 			<p class="indent"><strong><em>Size.</em></strong>You are Small.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Mechanical Nature.</em></strong> You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being paralyzed or poisoned. You don't need to eat, drink, or breathe.</p>
-			<p class="indent"><strong><em>Healing Machine.</em></strong>  If the Mending spell is cast on you, you can spend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point). In addition, your creator designed you to benefit from several spells that preserve life but that normally don't affect Constructs: Cure Wounds, Healing Word, Mass Cure Wounds, Mass Healing Word, and Spare the Dying. However, this unique interaction with life spells also render you vulnerable to death spells unlike normal constructs.</p>
-			<p class="indent"><strong><em>Sentry’s Rest.</em></strong> When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.</p>
-			<p class="indent"><strong><em>Armored Casing.</em></strong> You are encased in a thin metal or some other durable material. While you aren't wearing armor, your base Armor Class is 13 + your Dexterity modifier.</p>
-			<p class="indent"><strong><em>Specialized Design.</em></strong> You gain one skill proficiency and one tool proficiency of your choice.</p>
-			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common, gnomish, and one other language of your choice.</p>
+			<p class="indent"><strong><em>Speed.</em></strong>Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Mechanical Nature.</em></strong>You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being paralyzed or poisoned. You don't need to eat, drink, or breathe.</p>
+			<p class="indent"><strong><em>Healing Machine.</em></strong>If the Mending spell is cast on you, you can spend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point). In addition, your creator designed you to benefit from several spells that preserve life but that normally don't affect Constructs: Cure Wounds, Healing Word, Mass Cure Wounds, Mass Healing Word, and Spare the Dying. However, this unique interaction with life spells also render you vulnerable to death spells unlike normal constructs.</p>
+			<p class="indent"><strong><em>Sentry’s Rest.</em></strong>When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.</p>
+			<p class="indent"><strong><em>Armored Casing.</em></strong>You are encased in a thin metal or some other durable material. While you aren't wearing armor, your base Armor Class is 13 + your Dexterity modifier.</p>
+			<p class="indent"><strong><em>Specialized Design.</em></strong>You gain one skill proficiency and one tool proficiency of your choice.</p>
+			<p class="indent"><strong><em>Languages.</em></strong>You can speak, read, and write Common, gnomish, and one other language of your choice.</p>
 		</description>
 		<rules>
 			<select type="Ability Score Improvement" name="Ability Score Increase, Autognome" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA|ID_INTERNAL_ASI_CONSTITUTION" />
@@ -63,10 +63,10 @@
 	</element>
 	<element name="Mechanical Nature" type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_AUTOGNOME_MECHANICALNATURE">
 		<description>
-			<p> You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being paralyzed or poisoned. You don't need to eat, drink, or breathe. </p>
+			<p>You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being paralyzed or poisoned. You don't need to eat, drink, or breathe. </p>
 		</description>
 		<sheet>
-			<description> You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being paralyzed or poisoned. You don't need to eat, drink, or breathe. </description>
+			<description>You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being paralyzed or poisoned. You don't need to eat, drink, or breathe. </description>
 			
 		</sheet>
 		<rules>
@@ -109,29 +109,34 @@
 	</element>
   <element name="crabfolk" type="Race" source="Homebrew" id="ID_ABCII_HOMEBREW_RACE_CRABFOLK">
 		<description>
-			<p>The crabfolk are large and bulky humanoid crustaceans with thick outer shells similar to the much smaller non-man crab. They possess large powerful claws with high splitting power. Under these, they have a smaller pair of claws that are used for grooming and other more delicate actions such as writing or eating.</p>
+			<p>Crabfolk are a Race of crustacean like humanoids, most tend to live in the seas but its not uncommon for them to venture and even live on land. </p>
 			<h4>DEEP SEA ORIGINS</h4>
 			<p>These creatures have just recently risen from the depths of the ocean, and much of their culture is unknown. What is known, however, is that they came from an underwater canyon deep below the surface. They claim to have dug into the sides of the canyon to make crude burrow like dwellings.</p>
 			<h4>SOCIETAL PREJUDICES</h4>
 			<p>On the surface, crabfolk are taken with great caution due to their odd and mildly terrifying nature. Inns have been known to outright refuse crabfolk service out of fear, racism, or both. This bothers the crabfolk little, as they have grown used to social segregation due to their time in their deep-sea canyons.</p>
-			<h4>CRABFOLK NAMES</h4>
-			<p>Crabfolk usually have short, single names with hard sounds, and most end in a vowel.</p>
-			<ul class="unstyled">
-				<li><strong>Female Names:</strong> Haili, Imina, Parm</li>
-				<li><strong>Male Names:</strong> Katho, Digong, Yukim</li>
-			</ul>
+			<h4>PHYSIOLOGY</h4>
+			<p>Crabfolk are an extremely odd race that tend to be a hodge podge of serveral crustacean traits and appendages, to pleons that improve health and swimming speeds, to antannae that give extra sensory abilities, insectoid esque legs that improve land mobility and climbing, to a whole host of claws that can crush, rend, punch, and even condense air and water to create a powerful projectile. The only trait universal to all Crabfolk are eye stalks that have beady black eyes along with a small set of clawed arms under there main claws that are used for delicate action like eating and writing.</p>
+		<ul>
+				<li>The secondary set of claws can't weild any weapons and magic items along with only lifting below or at 5 pounds.</li>
+		</ul>
+			<p class="indent"> Choose which type of claws your Crabfolk character has:</p>
+			<p><strong>Crushing Claws.</strong>Your claws are large and blunted with rigdes all along the inside that gives your unarmed strikes 1d4 worth of bludgeoning damage. You also add +3 to any grapple you attempt to make.</p>
+			<p><strong>Rending Claws.</strong>Your claws are pointed ane more narrow with sharp spikes along the inside that gives your unamred strikes that deal 1d8 worth of slashing damage.</p>
+			<p><strong>Punching Claws.</strong>Your claws are completley blunted and can't be used to grab or hold anything but deal 1d8 worth of bludgeoning damage.
+			<p><strong>Shooting Claws.</strong>Your claws can close at such extreme speeds it condenses the air (or water) in your claws it shoots out creating a projectile that can travel up 10 Ft away and deals 1d6 force damage.</p>
+			<p><strong>Dextrous Claws.</strong>
 			<h4>CRABFOLK TRAITS</h4>
 			<p>Your crabfolk character has the following racial traits:</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Crabfolk are very hearty due to their rough living. Your Constitution score increases by 2, and your Strength score increases by 1.</p>
-			<p class="indent"><strong><em>Age.</em></strong> Crabfolk are considered adults by their late teens and can live for around 150 years.</p>
-			<p class="indent"><strong><em>Alignment.</em></strong> Crabfolk can take nearly any path in life that they feel suits them, though most tend to be neutral.</p>
-			<p class="indent"><strong><em>Size.</em></strong> Crabfolk usually stand at about 6 feet. Your size is Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet. You also have a swimming speed of 30 feet.</p>
+			<p class="indent"><strong><em>Age.</em></strong>Crabfolk are considered adults by their late teens and can live for around 150 years.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong>Crabfolk can take nearly any path in life that they feel suits them, though most tend to be neutral.</p>
+			<p class="indent"><strong><em>Size.</em></strong>Crabfolk usually stand at about 6 feet. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong>Your base walking speed is 25 feet. You also have a swimming speed of 30 feet.</p>
 			<p class="indent"><strong><em>Breath of the Sea.</em></strong> You can breathe both air and water.</p>
 			<p class="indent"><strong><em>Natural Armor.</em></strong> While you wear no armor, your AC is equal to 13 + your Constitution modifier. You may wield a shield and still gain this benefit.</p>		
 			<p class="indent"><strong><em>Rending Claws.</em></strong>Your unarmed strikes inflict slashing damage equal to 1d6 + your Strength modifier.</p>
 			<p class="indent"><strong><em>Dweller of the Deeps.</em></strong> Accustomed to the deepest seas, you ignore any of the drawbacks caused by a deep, underwater environment.</p>
-			<p class="indent"><strong><em>Languages.</em></strong>  You can speak, read, and write Common and Aquan.</p>
+			<p class="indent"><strong><em>Languages.</em></strong>You can speak, read, and write Common and Aquan.</p>
 		</description>
 		<rules>
 			<stat name="constitution" value="2" />
@@ -192,20 +197,20 @@
 			<h4>UNKNOWN ORIGINS</h4>
 			<p>Most giff believe they originated on one world, but their home world is now the stuff of legend, because no living giff has seen it or knows where it is. The divine beings who created giff have likewise been forgotten. Their titanic petrified bodies drift on the Astral Sea, isolated and unrecognizable in their current form.</p>
 			<h4>ASTRAL ALLURE</h4>
-			<p>Although they don't realize it, giff are drawn to the Astral Plane because, on a deep psychic level, they remain connected to their creator gods, who have just enough divine spark left in them to imbue giff with sparks of their own, which giff have learned to channel through their weapons. Most giff have no idea where this so-called astral spark comes from, but they feel its presence most strongly when they are in Wildspace or the Astral Sea.</p>
+			<p>Although they don't realize it, giff are drawn to the Astral Sea because, on a deep psychic level, they remain connected to their creator gods, who have just enough divine spark left in them to imbue giff with sparks of their own, which giff have learned to channel through their weapons. Most giff have no idea where this so-called astral spark comes from, but they feel its presence most strongly when they are in Wildspace or the Astral Sea.</p>
 			<h4>NAMING DISAGREEMENTS</h4>
 			<p>Giff are split into two camps concerning how their name is pronounced. Half of them say it with a hard g, half with a soft g. Disagreements over the correct pronunciation often blossom into hard feelings, loud arguments, and head-butting contests, but they rarely escalate beyond that.</p>
 			<h4>GIFF TRAITS</h4>
-			<p>Your giff character has the following racial traits:</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Due to there size, giff get 2 points in strength and 1 point in constitution</p>
-			<p class="indent"><strong><em>Age.</em></strong> Giff mature faster than humans, reaching adulthood at 14 and old age at 60. They can live for 90 years.</p>
-			<p class="indent"><strong><em>Alignment.</em></strong> Giff can fall into any alignment depending on there upbringing, they're usually lawful though due to their strict, regimented lifestyle.</p>
-			<p class="indent"><strong><em>Size.</em></strong> Giff can stand anywhere from 5 to 7 feet, your size is medium</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
-			<p class="indent"><strong><em>Astral Spark.</em></strong> Your psychic connection to the Astral Plane enables you to mystically access a spark of divine power, which you can channel through your weapons. When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest.</p>
-			<p class="indent"><strong><em>Firearm Mastery.</em></strong> You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn't impose disadvantage on your attack roll.</p>		
-			<p class="indent"><strong><em>Hippo Build.</em></strong> You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
-			<p class="indent"><strong><em>Languages.</em></strong>  You can speak, read, and write Common and one other laguage of your choice.</p>
+			<p>Your Giff character has the following racial traits:</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong>Due to there size, giff get 2 points in strength and 1 point in constitution</p>
+			<p class="indent"><strong><em>Age.</em></strong>Giff mature faster than humans, reaching adulthood at 14 and old age at 60. They can live for 90 years.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong>Giff can fall into any alignment depending on there upbringing, they're usually lawful though due to their strict, regimented lifestyle.</p>
+			<p class="indent"><strong><em>Size.</em></strong>Giff can stand anywhere from 5 to 7 feet, your size is medium</p>
+			<p class="indent"><strong><em>Speed.</em></strong>Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
+			<p class="indent"><strong><em>Astral Spark.</em></strong>Your psychic connection to the Astral Plane enables you to mystically access a spark of divine power, which you can channel through your weapons. When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest.</p>
+			<p class="indent"><strong><em>Firearm Mastery.</em></strong>You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn't impose disadvantage on your attack roll.</p>		
+			<p class="indent"><strong><em>Hippo Build.</em></strong>You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+			<p class="indent"><strong><em>Languages.</em></strong>You can speak, read, and write Common and one other laguage of your choice.</p>
 		</description>
 		<rules>
 			<stat name="strength" value="2" />
@@ -222,18 +227,18 @@
 	</element>
 	<element name="Astral Spark." type="Racial Trait" source="HOMEBREW" id="ID_ABCII_HOMEBREW_RACIALTRAIT_GIFF_ASTRALSPARK">
 		<description>
-			<p> Your psychic connection to the Astral Plane enables you to mystically access a spark of divine power, which you can channel through your weapons. When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest.</p>
+			<p>Your psychic connection to the Astral Sea enables you to mystically access a spark of divine power, which you can channel through your weapons. When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet>
-			<description> Your psychic connection to the Astral Plane enables you to mystically access a spark of divine power, which you can channel through your weapons. When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest.</description>
+			<description>Your psychic connection to the Astral Sea enables you to mystically access a spark of divine power, which you can channel through your weapons. When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest.</description>
 		</sheet>
 	</element>
 	<element name="Firearm Mastery" type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_GIFF_FIREARMMASTERY">
 		<description>
-			<p> You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn't impose disadvantage on your attack roll.</p>
+			<p>You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn't impose disadvantage on your attack roll.</p>
 		</description>
 		<sheet>
-			<description> You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn't impose disadvantage on your attack roll.</description>	
+			<description>You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn't impose disadvantage on your attack roll.</description>	
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_FIREARMS"/>
@@ -241,10 +246,10 @@
 	</element>
 	<element name="Hippo Build." type="Racial Trait" source="HOMEBREW" id="ID_ABCII_HOMEBREW_RACIALTRAIT_GIFF_HIPPOBUILD">
 		<description>
-			<p> You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+			<p>You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
 		</description>
 		<sheet>
-			<description> You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+			<description>You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
 		</sheet>
 	</element>
   <element name="Plasmoid" type="Race" source="Homebrew" id="ID_ABCII_HOMEBREW_RACE_PLASMOID">
@@ -252,8 +257,10 @@
 			<p> Plasmoids are amorphous beings with no typical shape. In the presence of other folk, they often adopt a similar form, but there’s little chance of mistaking a plasmoid for anything else.</p>
 			<h5>STRANGE BIOLOGY</h5>
 			<p>They consume food by osmosis, the way an amoeba does, and excrete waste through tiny pores. They breathe by absorbing oxygen through another set of pores, and their limbs are strong and flexible enough to grasp and manipulate weapons and tools. Although most plasmoids are translucent gray, they can alter their color and translucence by absorbing dyes through their pores. Plasmoids don’t have internal organs of the usual sort. Their bodies are composed of cells, fibers, plasma-like ooze, and clusters of nerves called ganglia. These nerves enable a plasmoid to detect light, heat, texture, sound, pain, and vibrations. Plasmoids can stiffen the outer layers of their bodies to maintain a humanlike shape, so they can wear clothing and accessories. They speak by forcing air out of tubular cavities that constrict to produce sound. When plasmoids sleep, they lose their rigidity and spread out and are sometimes mistaken for a rock or some other feature of the environment.</p>
+			<h5>ODD ORIGINS</h5>
+			<p>Where the plasmoids originated from is unknown, ask anyone whos lived on the seas and most will say they just showed up oneday. Even plasmoids themselves aren't too certain of where they come from, with most saying that they don't have much recollection of their earlier years. 
 			<h4>PLASMOID TRAITS</h4>
-			<p>Your plasmoid character has the following traits.</p>
+			<p>Your Plasmoid character has the following traits.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2, and your Wisdom score increases by 1.</p>
 			<p class="indent"><strong><em>Age.</em></strong>Typical lifespan is about a century.</p>
 			<p class="indent"><strong><em>Alignment.</em></strong> Much like their bodies, plasmoid alignment is very fluid.</p>
@@ -286,7 +293,7 @@
 	</element>
 	<element name="Amorphous" type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_PLASMOID_AMORPHOUS">
 		<description>
-			<p> You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing. You also have advantage on ability checks you make to initiate or escape a grapple.</p>
+			<p>You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing. You also have advantage on ability checks you make to initiate or escape a grapple.</p>
 		</description>
 		<sheet>
 			<description>You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing. You also have advantage on ability checks you make to initiate or escape a grapple.</description>	
@@ -294,18 +301,18 @@
 	</element>
 	<element name="Hold Breath" type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_PLASMOID_HOLDBREATH">
 		<description>
-			<p> You can hold your breath for 1 hour.</p>
+			<p> ou can hold your breath for 1 hour.</p>
 		</description>
 		<sheet>
-			<description> You can hold your breath for 1 hour.</description>
+			<description>You can hold your breath for 1 hour.</description>
 		</sheet>
 	</element>
 	<element name="Natural Resilience" type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_PLASMOID_NATURALRESILIENCE">
 		<description>
-			<p> You have resistance to acid and poison damage, and you have advantage on saving throws against being poisoned.</p>
+			<p>You have resistance to acid and poison damage, and you have advantage on saving throws against being poisoned.</p>
 		</description>
 		<sheet>
-			<description> You have resistance to acid and poison damage, and you have advantage on saving throws against being poisoned.</description>
+			<description>You have resistance to acid and poison damage, and you have advantage on saving throws against being poisoned.</description>
 			
 		</sheet>
 		<rules>
@@ -315,28 +322,28 @@
 	</element>
 	<element name="Creature Type" type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_PLASMOID_CREATURETYPE">
 		<description>
-			<p> You are an Ooze.</p>
+			<p>You are an Ooze.</p>
 		</description>
 		<ul>
 				<li>Oozes are amorphous blob-like creatures that are usually mindless. Most oozes were once created by some arcane process, but then later reproduce asexually.</li>
      		</ul>
 		<sheet>
-			<description> You are an Ooze.</description>
+			<description>You are an Ooze.</description>
 		
 		</sheet>
 	</element>
 	<element name="Shape Self" type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_PLASMOID_SHAPESELF">
 		<description>
-			<p> If you are not incapacitated, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob (no action required)at 5h level you can create a 3rd arm. As a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long or reabsorb it into your body. You can use this pseudopod to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour out the contents of a container.</p>
+			<p>If you are not incapacitated, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob (no action required)at 5h level you can create a 3rd arm. As a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long or reabsorb it into your body. You can use this pseudopod to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour out the contents of a container.</p>
 		</description>
 		<ul>
-				<li>The pseudopod can’t attack, activate magic items, or carry more than 10 pounds.</li>
+				<li>The pseudopod can only utilize items with the light property</li>
      		</ul>
 		<sheet>
-			<description> If you are not incapacitated, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob (no action required)at 5h level you can create a 3rd arm. As a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long or reabsorb it into your body. You can use this pseudopod to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour out the contents of a container.</description>
+			<description>If you are not incapacitated, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob (no action required)at 5h level you can create a 3rd arm. As a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long or reabsorb it into your body. You can use this pseudopod to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour out the contents of a container.</description>
 		</sheet>
 		<ul>
-				<li>The pseudopod can’t attack, activate magic items, or carry more than 10 pounds.</li>
+				<li>The pseudopod can only utilize items with the light property</li>
      		</ul>
 	</element>
   <element name="Thri-Kreen" type="Race" source="Homebrew" id="ID_ABCII_HOMEBREW_RACE_THR-KREEN">
@@ -344,22 +351,19 @@
 			<p>Thri-kreen have insectile features and two pairs of arms. Their bodies are encased in protective chitin. They can alter the coloration of this carapace to blend in with their natural surroundings.</p>
 			<h5>PSIONIC COMMUNICATION</h5>
 			<p>Thri-kreen speak by clacking their mandibles and waving their antennae, indicating to other thri-kreen what they are thinking and feeling. Other creatures find this method of communication difficult to interpret and impossible to duplicate. To interact with other folk, thri-kreen rely on a form of telepathy.</p>
-			<h4>THRI_KREEN TRAITS</h4>
-			<p>Your autognome character has the following traits. A few of the traits give you a choice; consider how your choice reflects the purpose for which your character was built.</p>
+			<h4>THRI-KREEN TRAITS</h4>
+			<p>Your Thri-Kreen character has the following traits. A few of the traits give you a choice; consider how your choice reflects the purpose for which your character was built.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2, and your Wisdom score increases by 1.</p>
 			<p class="indent"><strong><em>Age.</em></strong>Thri-kreen live much shorter lives than their humanoids counterparts. A thri-kreen matures quickly, reaching adulthood within 3-4 years of hatching. Most thri-kreen only live to be 30 years old, although some live marginally longer.</p>
 			<p class="indent"><strong><em>Alignment.</em></strong> Thri-kreen, to many people's surprise, tend towards no particular alignment. Some are lawful if they come from a hive or a colony, following a rigorous social hierarchy set upon them since coming out the egg. Others tend to be chaotic, uncomfortable living by the societal standards the other races subject themselves to, often finding themselves acting in whatever fashion benefits them at the time. Regardless of this, it is rare that Thri-Kreen are good and evil.</p>
-			<p class="indent"><strong><em>Size.</em></strong> A full-grown thri-kreen stands six feet tall but can be as long as 6 to 8 feet, and can weigh between 100 to 375 pounds. Your size is Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet and your hovering speed is half of your walking speed. You sink in liquid and have a swimming speed of 0 feet.</p>
-			<p class="indent"><strong><em>Dark Vision.</em></strong> Your compact eyes and deep instincts give you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
-			<p class="indent"><strong><em>Exoskeleton.</em></strong> You have a natural external covering for support and protection. When you aren’t wearing armor, your AC is 12 + your Constitution modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armor.</p>
-			<p class="indent"><strong><em>Extra Arms.</em></strong> You have four arms, your two regular arms and two smaller arms that are closer to the center of the chest. Your smaller arms have a reach of 5 feet, and you can use them to lift a number of pounds equal to five times your Strength score. You can use it to do the following simple tasks: lift, drop, hold, push, or pull an object or a creature; open or close a door or a container; grapple someone; or make an unarmed strike. Your DM might allow other simple tasks to be added to that list of options.</p>
-      <ul>
-               <li>These smaller arms can’t wield weapons or shields or do anything that requires manual precision, such as using tools or magic items or performing the somatic components of a spell.</li>
-      </ul>
-			<p class="indent"><strong><em>Thri-Kreen Weapon Training.</em></strong> The thri-kreen are known for their martial prowess with the chatkcha and gythka. You have proficiency with the dagger, spear, pike, and glaive.</p>
-			<p class="indent"><strong><em>Flight.</em></strong> You have a flying speed that is half of your walking speed. To use this speed, you can’t be wearing medium or heavy armor.</p>
-			<p class="indent"><strong><em>Hive Link.</em></strong> With the assistance of your psionic abilities, you are able to work around your mandibles in order to communicate with others unlike your own. You have the ability to speak telepathically to any and all creatures within 60 feet of you regardless of shared languages. You can't learn or speak any other languages</p>
+			<p class="indent"><strong><em>Size.</em></strong>A full-grown thri-kreen stands six feet tall but can be as long as 6 to 8 feet, and can weigh between 100 to 375 pounds. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong>Your base walking speed is 30 feet and your hovering speed is half of your walking speed. You sink in liquid and have a swimming speed of 0 feet.</p>
+			<p class="indent"><strong><em>Dark Vision.</em></strong>Your compact eyes and deep instincts give you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Exoskeleton.</em></strong>You have a natural external covering for support and protection. When you aren’t wearing armor, your AC is 12 + your Constitution modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armor.</p>
+			<p class="indent"><strong><em>Extra Arms.</em></strong>You have four arms, your two regular arms and two smaller arms that are closer to the center of the chest. The secondary arms can manipulate an object, open or close a door or container, pick up or set down a Tiny object, or wield a weapon that has the light property.</p>
+			<p class="indent"><strong><em>Thri-Kreen Weapon Training.</em></strong>The thri-kreen are known for their martial prowess with the chatkcha and gythka. You have proficiency with the dagger, spear, pike, and glaive.</p>
+			<p class="indent"><strong><em>Flight.</em></strong>You have a flying speed that is half of your walking speed. To use this speed, you can’t be wearing medium or heavy armor.</p>
+			<p class="indent"><strong><em>Hive Link.</em></strong>With the assistance of your psionic abilities, you are able communicate with non Thr-Kreen. You have the ability to speak telepathically to any and all creatures within 60 feet of you regardless of shared languages. You can't learn or speak any other than Thr-Kreen</p>
 		</description>
 		<rules>
 			<stat name="strength" value="2" />
@@ -390,21 +394,18 @@
 	</element>
 	<element name="Extra Arms" type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_THRI-KREEN_EXTRAARMS">
 		<description>
-			<p> You have four arms, your two regular arms and two smaller arms that are closer to the center of the chest. Your smaller arms have a reach of 5 feet, and you can use them to lift a number of pounds equal to five times your Strength score. You can use it to do the following simple tasks: lift, drop, hold, push, or pull an object or a creature; open or close a door or a container; grapple someone; or make an unarmed strike. Your DM might allow other simple tasks to be added to that list of options.</p>
+			<p>You have four arms, your two regular arms and two smaller arms that are closer to the center of the chest. Your secondary arms can manipulate an object, open or close a door or container, pick up or set down a Tiny object, or wield a weapon that has the light property.</p>
 		</description>
-		 	 <ul>
-             			  <li>These smaller arms can’t wield weapons or shields or do anything that requires manual precision, such as using tools or magic items or performing the somatic components of a spell.</li>
-      			</ul>
 		<sheet>
-			<description> You have four arms, your two regular arms and two smaller arms that are closer to the center of the chest. Your smaller arms have a reach of 5 feet, and you can use them to lift a number of pounds equal to five times your Strength score. You can use it to do the following simple tasks: lift, drop, hold, push, or pull an object or a creature; open or close a door or a container; grapple someone; or make an unarmed strike. Your DM might allow other simple tasks to be added to that list of options.</description>
+			<description>You have four arms, your two regular arms and two smaller arms that are closer to the center of the chest. Your secondary arms can manipulate an object, open or close a door or container, pick up or set down a Tiny object, or wield a weapon that has the light property.</description>
 		</sheet>
 	</element>
 	<element name="Thri-Kreen Weapon Training." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_THRI-KREEN_THRI-KREENWEAPONTRAINING">
 		<description>
-			<p> The thri-kreen are known for their martial prowess with the chatkcha and gythka. You have proficiency with the dagger, spear, pike, and glaive. </p>
+			<p>The thri-kreen are known for their martial prowess with the chatkcha and gythka. You have proficiency with the dagger, spear, pike, and glaive. </p>
 		</description>
 		<sheet>
-			<description> The thri-kreen are known for their martial prowess with the chatkcha and gythka. You have proficiency with the dagger, spear, pike, and glaive. </description>
+			<description>The thri-kreen are known for their martial prowess with the chatkcha and gythka. You have proficiency with the dagger, spear, pike, and glaive. </description>
 			
 		</sheet>
 		<rules>
@@ -416,18 +417,18 @@
 	</element>
 	<element name="Flight" type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_THRI-KREEN_FLIGHT">
 		<description>
-			<p> You have a flying speed that is half of your walking speed. To use this speed, you can’t be wearing medium or heavy armor.</p>
+			<p>You have a flying speed that is half of your walking speed. To use this speed, you can’t be wearing medium or heavy armor.</p>
 		</description>
 		<sheet>
-			<description> You have a flying speed that is half of your walking speed. To use this speed, you can’t be wearing medium or heavy armor.</description>
+			<description>You have a flying speed that is half of your walking speed. To use this speed, you can’t be wearing medium or heavy armor.</description>
 		</sheet>
 	</element>
 	<element name="Hive Link" type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_THRI-KREEN_HIVELINK">
 		<description>
-			<p> With the assistance of your psionic abilities, you are able to work around your mandibles in order to communicate with others unlike your own. You have the ability to speak telepathically to any and all creatures within 60 feet of you regardless of shared languages. You can't learn or speak any other languages</p>
+			<p>With the assistance of your psionic abilities, you are able communicate with non Thr-Kreen. You have the ability to speak telepathically to any and all creatures within 60 feet of you regardless of shared languages. You can't learn or speak any other than Thr-Kreen.</p>
 		</description>
 		<sheet>
-			<description> With the assistance of your psionic abilities, you are able to work around your mandibles in order to communicate with others unlike your own. You have the ability to speak telepathically to any and all creatures within 60 feet of you regardless of shared languages. You can't learn or speak any other languages</description>
+			<description>With the assistance of your psionic abilities, you are able communicate with non Thr-Kreen. You have the ability to speak telepathically to any and all creatures within 60 feet of you regardless of shared languages. You can't learn or speak any other than Thr-Kreen.</description>
 		</sheet>
 	</element>
 </elements>
