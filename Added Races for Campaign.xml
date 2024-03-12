@@ -233,7 +233,7 @@
 				<description>Your claws are small but incredibly articulated, allowing you to use them as if they were normal hands. they can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands</description>
 			</sheet>
 			<rules>
-				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PROFICIENCY_SLEIGHT_OF_HAND" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PROFICIENCY_SLEIGHT_OF_HAND" requirements="!ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_DEXTEROUSCLAWS" />/>
 			</rules>
 		</element>
 		<element name="Pleon." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_PLEON">
@@ -258,7 +258,7 @@
 				<description>You have a pair of Antennae either on your head or on your face that gives you proficiency in perception at the cost of -1 AC.</description>
 			</sheet>
 			<rules>
-				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PROFICIENCY_PERCEPTION" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PROFICIENCY_PERCEPTION" requirements="!ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_ANTANNAE" />
 				<stat name="ac:Antannae" value="-1" />
 			</rules>
 		</element>
