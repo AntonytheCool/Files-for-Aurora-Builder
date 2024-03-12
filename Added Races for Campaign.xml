@@ -233,7 +233,7 @@
 				<description>Your claws are small but incredibly articulated, allowing you to use them as if they were normal hands. they can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands</description>
 			</sheet>
 			<rules>
-				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PROFICIENCY_SLEIGHT_OF_HAND" requirements="!ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_DEXTEROUSCLAWS" />/>
+				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PROFICIENCY_SLEIGHT_OF_HAND" requirements="!ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_DEXTEROUSCLAWS" />
 			</rules>
 		</element>
 		<element name="Pleon." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_PLEON">
