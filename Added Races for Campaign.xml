@@ -273,6 +273,9 @@
 			<rules>
 				<stat name="innate speed:climb" value="10" bonus="base" />
 				<stat name="ac:Insectoid Leg(s)" value="-1" />
+				<stat name="ac:Insectoid Leg(s)" value="dexterity:modifier" />
+				<stat name="ac:calculation" value="ac:Insectoid Leg(s)" bonus="calculation" equipped="[armor:none]" alt="ac:Insectoid Leg(s) 
+	(Crabfolk)" />	
 			</rules>
 		</element>
 		<element name="Natural Armor." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_NATURALARMOR">
