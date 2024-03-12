@@ -145,7 +145,7 @@
 		<rules>
 			<stat name="constitution" value="2" />
 			<select type="Ability Score Improvement" name="Ability Score Increase (Crabfolk)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY"
-		<grant type="Size" id="ID_SIZE_MEDIUM" />	
+			<grant type="size" id="ID_SIZE_MEDIUM"/>	
 			<stat name="innate speed" value="25" bonus="base" />	
 			<stat name="innate speed:swim" value="30" bonus="base" />
 			<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_CRUSTACEANBUILD" />
