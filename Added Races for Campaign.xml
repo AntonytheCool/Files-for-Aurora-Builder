@@ -249,26 +249,26 @@
 				<stat name="ac:Pleon" value="-2" />
 			</rules>
 		</element>
-		<element name="Insectoid Leg(s)." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_INSECTOIDLEG(S)">
+		<element name="Antannae." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_ANTANNAE">
 			<supports>Crustacean Build, Appendage</supports>
 			<description>
-				<p>You can have either one, or many insectoid-like legs that give you an additional 10 climb speed at the cost of -1 AC</p>
+				<p>You have a pair of Antennae either on your head or on your face that gives you proficiency in perception at the cost of -1 AC.</p>
 			</description>
 			<sheet>
-				<description>You can have either one, or many insectoid-like legs that give you an additional 10 climb speed at the cost of -1 AC</description>
+				<description>You have a pair of Antennae either on your head or on your face that gives you proficiency in perception at the cost of -1 AC.</description>
 			</sheet>
 			<rules>
 				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PROFICIENCY_PERCEPTION" />
 				<stat name="ac:Antannae" value="-1" />
 			</rules>
 		</element>
-		<element name="Pleon." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_PLEON">
+		<element name="Insectoid leg(s)." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_INSECTOIDLEG(S)">
 			<supports>Crustacean Build, Appendage</supports>
 			<description>
-				<p>You have a large, flat tail sticking from your back that gives you 5 aditional movespeed in water an +1 in constitution at the cost of -2 AC.</p>
+				<p>You can have either one, or many insectoid-like legs that give you an additional 10 climb speed at the cost of -1 AC</p>
 			</description>
 			<sheet>
-				<description>You have a large, flat tail sticking from your back that gives you 5 aditional movespeed in water an +1 in constitution at the cost of -2 AC.</description>
+				<description>You can have either one, or many insectoid-like legs that give you an additional 10 climb speed at the cost of -1 AC</description>
 			</sheet>
 			<rules>
 				<stat name="innate speed:climb" value="10" bonus="base" />
