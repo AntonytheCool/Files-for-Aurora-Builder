@@ -8,3 +8,14 @@
   <element name="Dunjin's Cutlass" Type="Magic Item" source="Homebrew" id="ID_ABCII_DMG_MAGIC_ITEM_DUNJINS_CUTLASS">
       <description>
               <p>Dunjin's cutlass is a magic item bestowed to him by a very close friend, who seems to be a master craftsman since this weapon along with Dunjin's arm are imaculate in design and function.</p>
+      </description>
+      <setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="cutlass">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">ID_</set>
+			<set name="name-format">{{parent}} +{{enhancement}}</set>
+		</setters>
+	</element>
