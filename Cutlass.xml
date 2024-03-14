@@ -19,5 +19,20 @@
 			<set name="damage" type="slashing">1d8</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CUTLASS</set>
 		</setters>
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CUTLASS" />
+		</rules>
+	</append>
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SWORDS">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CUTLASS" />
+		</rules>
+	</append>
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FINESSE_MELEE_WEAPONS">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CUTLASS" />
+		</rules>
+	</append>
 	</element>
 </elements>
