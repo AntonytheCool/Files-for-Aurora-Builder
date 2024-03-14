@@ -128,17 +128,13 @@
 				<p class="indent"><strong><em>Speed.</em></strong>Your base walking speed is 25 feet. You also have a swimming speed of 30 feet.</p>
 				<p class="indent"><strong><em>Breath of the Sea.</em></strong> You can breathe both air and water.</p>
 				<p class="indent"><strong><em>Natural Armor.</em></strong> While you wear no armor, your AC is equal to 13 + your Constitution modifier.</p>		
-				<p class="indent"><strong><em>Crustacean Build</em></strong>You get a wide range of claws and appendages you get to choose from:</p>
+				<p class="indent"><strong><em>Crustacean Build</em></strong>You get a wide range of claws you get to choose from:</p>
 				<p class="indent"> Choose which type of claws your Crabfolk character has:</p>
 				<p><strong>Crushing Claws.</strong>Your claws are large and blunted with rigdes all along the inside that gives your unarmed strikes 1d4 worth of bludgeoning damage, you also add +3 to any grapple you attempt to make. You have proficiency in unarmed strikes.</p>
 				<p><strong>Rending Claws.</strong>Your claws are pointed ane more narrow with sharp spikes along the inside that gives your unamred strikes that deal 1d8 worth of slashing damage, you may also use your dexterity modifier for unarmed strike rolls. you have proficiency in unarmed strikes.</p>
 				<p><strong>Punching Claws.</strong>Your claws are completley blunted and can't be used to grab or hold anything but deal 1d8 worth of bludgeoning damage and gain +1 in strength.you have proficiency in unarmed strikes.</p>
 				<p><strong>Shooting Claws.</strong>Your claws can snap at such extreme speeds it condenses the air (or water) in your claws it shoots out creating a projectile that can travel up 15 Ft away and deals 1d6 force damage.</p>
 				<p><strong>Dextrous Claws.</strong>Your claws are small but incredibly articulated, allowing you to use them as if they were normal hands. they can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands but lose proficiency in unarmed strikes.</p>
-				<p class="indent">You also gain a choice of two aditional appendages:</p>
-				<p><strong>Pleon</strong>you gain a large, flat tail sticking from your back that gives you 5 aditional movespeed in water an +1 in constitution at the cost of -2 AC,</p>
-				<p><strong>Entannae</strong>You have a pair of entennae either on your head or on your face that gives you proficiency in perception at the cost of -1 AC.</p>
-				<p><strong>Insectoid Leg(s)</strong>You can have either one, or many insectoid-like legs that give you an additional 10 climb speed at the cost of -1 dexterity.</p>
 				<p class="indent"><strong><em>Dweller of the Deeps.</em></strong> Accustomed to the deepest seas, you ignore any of the drawbacks caused by a deep, underwater environment.</p>
 				<p class="indent"><strong><em>Languages.</em></strong>You can speak, read, and write Common and Aquan.</p>
 			</description>
@@ -163,19 +159,13 @@
 				<p><strong>Rending Claws.</strong>Your claws are pointed ane more narrow with sharp spikes along the inside that gives your unamred strikes that deal 1d8 worth of slashing damage, you may also use your dexterity modifier for unarmed strike rolls. you have proficiency in unarmed strikes.</p>
 				<p><strong>Punching Claws.</strong>Your claws are completley blunted and can't be used to grab or hold anything but deal 1d8 worth of bludgeoning damage and gain +1 into strength.you have proficiency in unarmed strikes.</p>
 				<p><strong>Shooting Claws.</strong>Your claws can snap at such extreme speeds it condenses the air (or water) in your claws it shoots out creating a projectile that can travel up 15 Ft away and deals 1d6 force damage.</p>
-				<p><strong>Dextrous Claws.</strong>Your claws are small but incredibly articulated, allowing you to use them as if they were normal hands. they can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands.</p>
-				<p class="indent">You also gain a choice of two aditional appendages:</p>
-				<p><strong>Pleon</strong>You have a large, flat tail sticking from your back that gives you 5 aditional movespeed in water an +1 in constitution at the cost of -2 AC.</p>
-				<p><strong>Antannae</strong>You have a pair of Antennae either on your head or on your face that gives you proficiency in perception at the cost of -1 AC.</p>
-				<p><strong>Insectoid Leg(s)</strong>You can have either one, or many insectoid-like legs that give you an additional 10 climb speed at the cost of -1 AC.</p>
+				<p><strong>Dextrous Claws.</strong>Your claws are small but ar very articulated, allowing you to use them as if they were normal hands. they can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands.</p>
 			</description>
 			<sheet>
 				<description>You get a wide range of claws and appendages you get to choose from, these can be changed once picked:</description>
 			</sheet>
 			<rules>
 				<select type="Racial Trait" name="Crustacean Build, Claws" supports="Crustacean Build, Claws" />
-				<select type="Racial Trait" name="Crustacean Build, Appendage" supports="Crustacean Build, Appendage" />
-				<select type="Racial Trait" name="Crustacean Build, Appendage" supports="Crustacean Build, Appendage" />
 			</rules>
 		</element>
 		<element name="Crushing Claws." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_CRUSHINGCLAWS">
@@ -234,45 +224,6 @@
 			</sheet>
 			<rules>
 				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
-			</rules>
-		</element>
-		<element name="Pleon." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_PLEON">
-			<supports>Crustacean Build, Appendage</supports>
-			<description>
-				<p>You have a large, flat tail sticking from your back that gives you 5 aditional movespeed in water an +1 in constitution at the cost of -2 AC.</p>
-			</description>
-			<sheet>
-				<description>You have a large, flat tail sticking from your back that gives you 5 aditional movespeed in water an +1 in constitution at the cost of -2 AC.</description>
-			</sheet>
-			<rules>
-				<stat name="constitution" value="1" />
-				<stat name="ac:Pleon" value="-2" bonus="Pleon" />
-			</rules>
-		</element>
-		<element name="Antannae." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_ANTANNAE">
-			<supports>Crustacean Build, Appendage</supports>
-			<description>
-				<p>You have a pair of Antennae either on your head or on your face that gives you proficiency in perception at the cost of -1 AC.</p>
-			</description>
-			<sheet>
-				<description>You have a pair of Antennae either on your head or on your face that gives you proficiency in perception at the cost of -1 AC.</description>
-			</sheet>
-			<rules>
-				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
-				<stat name="ac:Antannae" value="-1" bonus="Antannae" />
-			</rules>
-		</element>
-		<element name="Insectoid leg(s)." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_INSECTOIDLEG(S)">
-			<supports>Crustacean Build, Appendage</supports>
-			<description>
-				<p>You can have either one, or many insectoid-like legs that give you an additional 10 climb speed at the cost of -1 AC</p>
-			</description>
-			<sheet>
-				<description>You can have either one, or many insectoid-like legs that give you an additional 10 climb speed at the cost of -1 AC</description>
-			</sheet>
-			<rules>
-				<stat name="innate speed:climb" value="23" bonus="Insectoid Leg(s)" />
-				<stat name="ac:Insectoid Leg(s)" value="-1" bonus="Insectoid Leg(s)" />
 			</rules>
 		</element>
 		<element name="Natural Armor." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_NATURALARMOR">
