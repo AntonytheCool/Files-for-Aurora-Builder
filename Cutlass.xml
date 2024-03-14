@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Weapons</name>
+		<update version="0.0.4">
+			<file name="Cutlass.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-weapons.xml" />
+		</update>
+	</info>
+<element name="Cutlass" type="Weapon" source="Homebrew" id="ID_ABCII_HOMEBREW_WEAPON_CUTLASS">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CUTLASS</set>
+		</setters>
+	</element>
+</elements>
