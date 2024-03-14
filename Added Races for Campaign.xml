@@ -132,7 +132,7 @@
 				<p class="indent"> Choose which type of claws your Crabfolk character has:</p>
 				<p><strong>Crushing Claws.</strong>Your claws are large and blunted with rigdes all along the inside that gives your unarmed strikes 1d4 worth of bludgeoning damage, you also add +3 to any grapple you attempt to make. You have proficiency in unarmed strikes.</p>
 				<p><strong>Rending Claws.</strong>Your claws are pointed ane more narrow with sharp spikes along the inside that gives your unamred strikes that deal 1d8 worth of slashing damage, you may also use your dexterity modifier for unarmed strike rolls. you have proficiency in unarmed strikes.</p>
-				<p><strong>Punching Claws.</strong>Your claws are completley blunted and can't be used to grab or hold anything but deal 1d8 worth of bludgeoning damage and gain +1 into strength.you have proficiency in unarmed strikes.</p>
+				<p><strong>Punching Claws.</strong>Your claws are completley blunted and can't be used to grab or hold anything but deal 1d8 worth of bludgeoning damage and gain +1 in strength.you have proficiency in unarmed strikes.</p>
 				<p><strong>Shooting Claws.</strong>Your claws can snap at such extreme speeds it condenses the air (or water) in your claws it shoots out creating a projectile that can travel up 15 Ft away and deals 1d6 force damage.</p>
 				<p><strong>Dextrous Claws.</strong>Your claws are small but incredibly articulated, allowing you to use them as if they were normal hands. they can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands but lose proficiency in unarmed strikes.</p>
 				<p class="indent">You also gain a choice of two aditional appendages:</p>
@@ -246,7 +246,7 @@
 			</sheet>
 			<rules>
 				<stat name="constitution" value="1" />
-				<stat name="ac:Pleon" value="-2" />
+				<stat name="ac:Pleon" value="-2" bonus="base" />
 			</rules>
 		</element>
 		<element name="Antannae." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_ANTANNAE">
@@ -259,7 +259,7 @@
 			</sheet>
 			<rules>
 				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
-				<stat name="ac:Antannae" value="-1" />
+				<stat name="ac:Antannae" value="-1" bonus="base" />
 			</rules>
 		</element>
 		<element name="Insectoid leg(s)." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_INSECTOIDLEG(S)">
@@ -271,9 +271,9 @@
 				<description>You can have either one, or many insectoid-like legs that give you an additional 10 climb speed at the cost of -1 AC</description>
 			</sheet>
 			<rules>
-				<stat name="innate speed:climb" value="10" bonus="base" />
-				<stat name="ac:Insectoid Leg(s)" value="-1" />
-				<stat name="ac:Insectoid Leg(s)" value="-1" />
+				<stat name="innate speed:climb" value="23" bonus="base" />
+				<stat name="ac:Insectoid Leg(s)" value="-1" bonus="base" />
+				<stat name="ac:Insectoid Leg(s)" value="-1" bonus="base" />
 				<stat name="ac:calculation" value="ac:Insectoid Leg(s)" bonus="calculation" equipped="[armor:none]" alt="ac:Insectoid Leg(s) 
 	(Crabfolk)" />	
 			</rules>
