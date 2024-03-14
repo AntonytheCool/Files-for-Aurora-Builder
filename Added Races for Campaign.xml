@@ -233,7 +233,7 @@
 				<description>Your claws are small but incredibly articulated, allowing you to use them as if they were normal hands. they can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands</description>
 			</sheet>
 			<rules>
-				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHT_OF_HAND" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
 			</rules>
 		</element>
 		<element name="Pleon." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_PLEON">
@@ -246,7 +246,7 @@
 			</sheet>
 			<rules>
 				<stat name="constitution" value="1" />
-				<stat name="ac:Pleon" value="-2" bonus="base" />
+				<stat name="ac:Pleon" value="-2" bonus="Pleon" />
 			</rules>
 		</element>
 		<element name="Antannae." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_ANTANNAE">
@@ -259,7 +259,7 @@
 			</sheet>
 			<rules>
 				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
-				<stat name="ac:Antannae" value="-1" bonus="base" />
+				<stat name="ac:Antannae" value="-1" bonus="Antannae" />
 			</rules>
 		</element>
 		<element name="Insectoid leg(s)." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_INSECTOIDLEG(S)">
@@ -271,11 +271,8 @@
 				<description>You can have either one, or many insectoid-like legs that give you an additional 10 climb speed at the cost of -1 AC</description>
 			</sheet>
 			<rules>
-				<stat name="innate speed:climb" value="23" bonus="base" />
-				<stat name="ac:Insectoid Leg(s)" value="-1" bonus="base" />
-				<stat name="ac:Insectoid Leg(s)" value="-1" bonus="base" />
-				<stat name="ac:calculation" value="ac:Insectoid Leg(s)" bonus="calculation" equipped="[armor:none]" alt="ac:Insectoid Leg(s) 
-	(Crabfolk)" />	
+				<stat name="innate speed:climb" value="23" bonus="Insectoid Leg(s)" />
+				<stat name="ac:Insectoid Leg(s)" value="-1" bonus="Insectoid Leg(s)" />
 			</rules>
 		</element>
 		<element name="Natural Armor." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_NATURALARMOR">
