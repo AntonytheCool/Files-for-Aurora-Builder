@@ -13,10 +13,10 @@
       <setters>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="cutlass">Weapon</set>
+			<set name="type" addition="Cutlass">Weapon</set>
 			<set name="rarity">Legendary</set>
 			<set name="enhancement">2</set>
 			<set name="name-format">Dunjin's Cutlass</set>
-		</setters>
-	</element>
+      </setters>
+  </element>
 </elements>
