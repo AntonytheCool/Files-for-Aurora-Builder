@@ -5,7 +5,7 @@
 			<file name="Dunjin's Cutlass.xml" url="https://github.com/AntonytheCool/Files-for-the-DND-Campaign/edit/main/Dunjin's%20Cutlass.xml" />
 		</update>
 	</info>
-	<element name="Javelin of Lightning" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_JAVELIN_OF_LIGHTNING">
+	<element name="Javelin of Lightning" type="Magic Item" source="Dungeon Master’s Guide" id="ID_ABCII_DMG_MAGIC_ITEM_DUNJIN'SCUTLASS">
 		<description>
 			<p>Dunjin's Cutlass is a magic item gifted to him by a close friend who appears to be a master craftsman, since both Dunjin's arm and cutlass are perfect in form and function.</p>
 			<p class="indent"><strong><em>Perfect Design.</em></strong> This magic weapon has +2 to any damage or attack roll done with it. Along with being able to damage enemies normally immune to whatever damage type is harming it with resistance</p>
