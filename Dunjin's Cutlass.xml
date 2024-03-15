@@ -2,23 +2,23 @@
 <elements>
 	<info>
 		<update version="0.0.7">
-			<file name="dunjin's cutlass.xml" url="https://github.com/AntonytheCool/Files-for-the-DND-Campaign/edit/main/dunjin's%20cutlass.xml" />
+			<file name="Dunjin's Cutlass.xml" url="https://github.com/AntonytheCool/Files-for-the-DND-Campaign/edit/main/Dunjin's%20Cutlass.xml" />
 		</update>
 	</info>
-  <element name="Dunjin's Cutlass" Type="Magic Item" source="Homebrew" id="ID_ABCII_DMG_MAGIC_ITEM_DUNJINSCUTLASS">
-      <description>
-              <p>Dunjin's cutlass is a magic item bestowed to him by a very close friend, who seems to be a master craftsman since this weapon along with Dunjin's arm are imaculate in design and function.</p>
-	      <p class="indent"><strong><em>Perfect Design</em></strong>Dunjin's cutlass gains +2 to attack and damage. It also capable damaging anything and everything regardless of immunities, it also can't be destroyed or weakened in anyway.</p>
-      </description>
-      <setters>
-	      		<set name="keywords">Cutlass</set>
+	<element name="Javelin of Lightning" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_JAVELIN_OF_LIGHTNING">
+		<description>
+			<p>Dunjin's Cutlass is a magic item gifted to him by a close friend who appears to be a master craftsman, since both Dunjin's arm and cutlass are perfect in form and function.</p>
+			<p class="indent"><strong><em>Perfect Design.</em></strong> This magic weapon has +2 to any damage or attack roll done with it. Along with being able to damage enemies normally immune to whatever damage type is harming it with resistance</p>
+		</description>
+		<setters>
+			<set name="keywords">Cutlass</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="Cutlass">Weapons</set>
+			<set name="type" addition="Cutlass">Weapon</set>
 			<set name="rarity">Legendary</set>
-	      		<set name="weapon">Cutlass</set>
 			<set name="enhancement">2</set>
+			<set name="weapon">Cutlass</set>
 			<set name="name-format">Dunjin's Cutlass</set>
-      </setters>
-  </element>
+		</setters>
+	</element>
 </elements>
