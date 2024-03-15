@@ -11,10 +11,12 @@
 	      <p class="indent"><strong><em>Perfect Design</em></strong>Dunjin's cutlass gains +2 to attack and damage. It also capable damaging anything and everything regardless of immunities, it also can't be destroyed or weakened in anyway.</p>
       </description>
       <setters>
+	      		<set name="keywords">Cutlass</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="any sword">Weapons</set>
+			<set name="type" addition="Cutlass">Weapons</set>
 			<set name="rarity">Legendary</set>
+	      		<set name="weapon">Cutlass</set>
 			<set name="enhancement">2</set>
 			<set name="name-format">Dunjin's Cutlass</set>
       </setters>
