@@ -153,16 +153,16 @@
 		</element>
 		<element name="Crustacean Build." type="Racial Trait" source="HOMEBREW" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_CRUSTACEANBUILD">
 			<description>
-				<p>You get a wide range of claws and appendages you get to choose from, these can be changed once picked:</p>
+				<p>You get a wide range of claws you get to choose from, these can be changed once picked:</p>
 				<p class="indent"> Choose which type of claws your Crabfolk character has:</p>
 				<p><strong>Crushing Claws.</strong>Your claws are large and blunted with rigdes all along the inside that gives your unarmed strikes 1d4 worth of bludgeoning damage, you also add +3 to any grapple you attempt to make. You have proficiency in unarmed strikes.</p>
 				<p><strong>Rending Claws.</strong>Your claws are pointed ane more narrow with sharp spikes along the inside that gives your unamred strikes that deal 1d8 worth of slashing damage, you may also use your dexterity modifier for unarmed strike rolls. you have proficiency in unarmed strikes.</p>
 				<p><strong>Punching Claws.</strong>Your claws are completley blunted and can't be used to grab or hold anything but deal 1d8 worth of bludgeoning damage and gain +1 into strength.you have proficiency in unarmed strikes.</p>
-				<p><strong>Shooting Claws.</strong>Your claws can snap at such extreme speeds it condenses the air (or water) in your claws it shoots out creating a projectile that can travel up 15 Ft away and deals 1d6 force damage.</p>
+				<p><strong>Shooting Claws.</strong>Your claws can snap at such extreme speeds it condenses the air (or water) in your claws it shoots out creating a projectile that can travel up 15 Ft away and deals 1d6 force damage. You may use strength or dexterity for attck and damage rolls</p>
 				<p><strong>Dextrous Claws.</strong>Your claws are small but ar very articulated, allowing you to use them as if they were normal hands. they can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands.</p>
 			</description>
 			<sheet>
-				<description>You get a wide range of claws and appendages you get to choose from, these can be changed once picked:</description>
+				<description>You get a wide range of claws you get to choose from, these can be changed once picked:</description>
 			</sheet>
 			<rules>
 				<select type="Racial Trait" name="Crustacean Build, Claws" supports="Crustacean Build, Claws" />
@@ -208,10 +208,10 @@
 		<element name="Shooting Claws." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_SHOOTINGCLAWS">
 			<supports>Crustacean Build, Claws</supports>
 			<description>
-				<p>Your claws can snap at such extreme speeds it condenses the air (or water) in your claws it shoots out creating a projectile that can travel up 15 Ft away and deals 1d6 force damage.</p>
+				<p>Your claws can snap at such extreme speeds it condenses the air (or water) in your claws it shoots out creating a projectile that can travel up 15 Ft away and deals 1d6 force damage. You may use strength or dexterity for attck and damage rolls</p>
 			</description>
 			<sheet>
-				<description>Your claws can snap at such extreme speeds it condenses the air (or water) in your claws it shoots out creating a projectile that can travel up 15 Ft away and deals 1d6 force damage.</description>
+				<description>Your claws can snap at such extreme speeds it condenses the air (or water) in your claws it shoots out creating a projectile that can travel up 15 Ft away and deals 1d6 force damage. You may use strength or dexterity for attck and damage rolls</description>
 			</sheet>
 		</element>
 		<element name="Dexterous Claws." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_DEXTEROUSCLAWS">
