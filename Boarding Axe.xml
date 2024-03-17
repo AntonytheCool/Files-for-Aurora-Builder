@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.4">
+			<file name="Boarding Axe.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-weapons.xml" />
+		</update>
+	</info>
+<element name="Battleaxe" type="Weapon" source="Player’s Handbook" id="ID_ABCII_HOMEBREW_WEAPON_BOARDINGAXE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+		<description>
+			<p>The boarding axe is present on all ships as an unreplacable utility for any shipwright. Boarding axes do increased dammage to structures.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="versatile">1d10</set>
+      <set name="hullbreaker">2d8/2d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_BOARDINGAXE</set>
+		</setters>
+	</element>
+</elements>
