@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.4">
-			<file name="Boarding Axe.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-weapons.xml" />
+			<file name="Boarding Axe.xml" url="https://github.com/AntonytheCool/Files-for-the-DND-Campaign/edit/main/Boarding%20Axe.xml" />
 		</update>
 	</info>
 <element name="Battleaxe" type="Weapon" source="Player’s Handbook" id="ID_ABCII_HOMEBREW_WEAPON_BOARDINGAXE">
