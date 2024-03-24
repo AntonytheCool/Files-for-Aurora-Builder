@@ -5,7 +5,7 @@
 			<file name="Boarding Axe.xml" url="https://github.com/AntonytheCool/Files-for-the-DND-Campaign/edit/main/Boarding%20Axe.xml" />
 		</update>
 	</info>
-<element name="Battleaxe" type="Weapon" source="Player’s Handbook" id="ID_ABCII_HOMEBREW_WEAPON_BOARDINGAXE">
+<element name="Boarding Axe" type="Weapon" source="Player’s Handbook" id="ID_ABCII_HOMEBREW_WEAPON_BOARDINGAXE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
 		<description>
 			<p>The boarding axe is present on all ships as an unreplacable utility for any shipwright. Boarding axes do increased dammage to structures.</p>
