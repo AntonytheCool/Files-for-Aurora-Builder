@@ -9,7 +9,7 @@
 <element name="Cutlass" type="Weapon" source="Homebrew" id="ID_ABCII_HOMEBREW_WEAPON_CUTLASS">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 		<description>
-			<p>The Cutlass is incredably popular sword amongst sailors and pirates alike for its reliable strength and most importantly, its shorter blade wich allows one to wield it with ease even in the most cramped of quarters.</p>
+			<p>The Cutlass is incredibly popular sword amongst sailors and pirates alike for its reliable strength and most importantly, its shorter blade wich allows one to wield it with ease even in the most cramped of quarters.</p>
 		</description>
 		<setters>
 			<set name="category">Weapons</set>
