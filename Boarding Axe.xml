@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
+		<name>Weapons</name>
 		<update version="0.0.4">
 			<file name="Boarding Axe.xml" url="https://github.com/AntonytheCool/Files-for-the-DND-Campaign/edit/main/Boarding%20Axe.xml" />
 		</update>
