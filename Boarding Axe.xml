@@ -5,19 +5,19 @@
 			<file name="Boarding Axe.xml" url="https://github.com/AntonytheCool/Files-for-the-DND-Campaign/edit/main/Boarding%20Axe.xml" />
 		</update>
 	</info>
-<element name="Boarding Axe" type="Weapon" source="Player’s Handbook" id="ID_ABCII_HOMEBREW_WEAPON_BOARDINGAXE">
+	<element Name="Boarding Axe" type="weapon" source="Homenrew" id="ID_ABCII_HOMEBREW_WEAPON_BOARDINGAXE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
 		<description>
-			<p>The boarding axe is present on all ships as an unreplacable utility for any shipwright. Boarding axes do increased dammage to structures.</p>
+			<p>The boarding axe is an irreplacable utility every sailing ship needs, having an increadibly sharp blade to access any part of the ship through force.</p>
 		</description>
 		<setters>
 			<set name="category">Weapons</set>
-			<set name="cost" currency="gp">5</set>
+			<set name="cost" currency="gp">10</set>
 			<set name="weight" lb="4">4 lb.</set>
 			<set name="slot">onehand</set>
 			<set name="damage" type="slashing">1d8</set>
 			<set name="versatile">1d10</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_BOARDINGAXE</set>
-		</setters>
-</element>
+			<set name="proficiency">ID_ABCII_HOMEBREW_WEAPON_BOARDINGAXE</set>
+		</settes>
+	</element>
 </elements>
