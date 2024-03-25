@@ -18,6 +18,6 @@
 			<set name="damage" type="slashing">1d8</set>
 			<set name="versatile">1d10</set>
 			<set name="proficiency">ID_ABCII_HOMEBREW_WEAPON_BOARDINGAXE</set>
-		</settes>
+		</setters>
 	</element>
 </elements>
