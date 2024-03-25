@@ -5,7 +5,7 @@
 			<file name="Boarding Axe.xml" url="https://github.com/AntonytheCool/Files-for-the-DND-Campaign/edit/main/Boarding%20Axe.xml" />
 		</update>
 	</info>
-	<element Name="Boarding Axe" type="weapon" source="Homenrew" id="ID_ABCII_HOMEBREW_WEAPON_BOARDINGAXE">
+	<element name="Boarding Axe" type="weapon" source="Homenrew" id="ID_ABCII_HOMEBREW_WEAPON_BOARDINGAXE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
 		<description>
 			<p>The boarding axe is an irreplacable utility every sailing ship needs, having an increadibly sharp blade to access any part of the ship through force.</p>
