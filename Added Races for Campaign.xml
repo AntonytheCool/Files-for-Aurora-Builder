@@ -182,10 +182,10 @@
 		<element name="Crushing Claws." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_CRUSHINGCLAWS">
 			<supports>Crustacean Build, Claws</supports>
 			<description>
-				<p>Your claws are large and blunted with rigdes all along the inside that gives your unarmed strikes 1d4 worth of bludgeoning damage, you also add +3 to any grapple you attempt to make. You have proficiency in unarmed strikes.</p>
+				<p>Your claws are large and blunted with rigdes all along the inside that gives your unarmed strikes 1d4 worth of bludgeoning damage, after making an unarmed strike you can you a bonus action to make a grapple attempt against the target. You have proficiency in unarmed strikes.</p>
 			</description>
 			<sheet>
-				<description>Your claws are large and blunted with rigdes all along the inside that gives your unarmed strikes 1d4 worth of bludgeoning damage, you also add +3 to any grapple you attempt to make. You have proficiency in unarmed strikes.</description>
+				<description>Your claws are large and blunted with rigdes all along the inside that gives your unarmed strikes 1d4 worth of bludgeoning damage, after making an unarmed strike you can you a bonus action to make a grapple attempt against the target. You have proficiency in unarmed strikes.</description>
 			</sheet>
 			<rules>
 				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_UNARMED_STRIKE"/>
@@ -228,10 +228,10 @@
 		<element name="Dexterous Claws." type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_DEXTEROUSCLAWS">
 			<supports>Crustacean Build, Claws</supports>
 			<description>
-				<p>Your claws are small but incredibly articulated, allowing you to use them as if they were normal hands. they can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands</p>
+				<p>Your claws are small but incredibly articulated, allowing you to use them as if they were normal hands. You can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands</p>
 			</description>
 			<sheet>
-				<description>Your claws are small but incredibly articulated, allowing you to use them as if they were normal hands. they can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands</description>
+				<description>Your claws are small but incredibly articulated, allowing you to use them as if they were normal hands. You can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands</description>
 			</sheet>
 			<rules>
 				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
@@ -450,7 +450,7 @@
 		</description>
 		<rules>
 			<stat name="wisdom" value="2" />
-			<select type="Ability Score Improvement" name="Ability Score Increase (Crabfolk)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY"	/>
+			<select type="Ability Score Improvement" name="Ability Score Increase (thri-kreen)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY"	/>
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<stat name="innate speed:fly" value="15" bonus="base" />
