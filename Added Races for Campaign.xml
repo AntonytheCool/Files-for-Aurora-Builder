@@ -445,7 +445,7 @@
 			<p class="indent"><strong><em>Exoskeleton.</em></strong> You have a natural external covering for support and protection. When you aren’t wearing armor, your AC is 12 + your Constitution modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armor.</p>
 			<p class="indent"><strong><em>Extra Arms.</em></strong> You have four arms, your two regular arms and two smaller arms that are closer to the center of the chest. The secondary arms can manipulate an object, open or close a door or container, pick up or set down a Tiny object, or wield a weapon that has the light property.</p>
 			<p class="indent"><strong><em>Thri-Kreen Weapon Training.</em></strong> The thri-kreen are known for their martial prowess with the chatkcha and gythka. You have proficiency with the dagger, spear, pike, and glaive.</p>
-			<p class="indent"><strong><em>Flight.</em></strong> You have a flying speed that is half of your walking speed. To use this speed, you can’t be wearing medium or heavy armor.</p>
+			<p class="indent"><strong><em>Flight.</em></strong> You have a flying speed that is half of your walking speed. To use this speed, you can’t be wearing heavy armor.</p>
 			<p class="indent"><strong><em>Hive Link.</em></strong> With the assistance of your psionic abilities, you are able to work around your mandibles in order to communicate with others unlike your own. You have the ability to speak telepathically to any and all creatures within 60 feet of you regardless of shared languages. You can't learn or speak any other languages</p>
 		</description>
 		<rules>
@@ -500,10 +500,10 @@
 	</element>
 	<element name="Flight" type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_THRI-KREEN_FLIGHT">
 		<description>
-			<p> You have a flying speed that is half of your walking speed. To use this speed, you can’t be wearing medium or heavy armor. You sink in liquid and have a swimming speed of 0 feet.</p>
+			<p> You have a flying speed that is half of your walking speed. To use this speed, you can’t be wearing heavy armor. You sink in liquid and have a swimming speed of 0 feet.</p>
 		</description>
 		<sheet>
-			<description> You have a flying speed that is half of your walking speed. To use this speed, you can’t be wearing medium or heavy armor. You sink in liquid and have a swimming speed of 0 feet.</description>
+			<description> You have a flying speed that is half of your walking speed. To use this speed, you can’t be wearing heavy armor. You sink in liquid and have a swimming speed of 0 feet.</description>
 		</sheet>
 	</element>
 	<element name="Hive Link" type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_THRI-KREEN_HIVELINK">
