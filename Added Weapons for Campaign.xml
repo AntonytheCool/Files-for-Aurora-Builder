@@ -36,10 +36,9 @@
 	</append>
 	</element>
 	<element name="Boarding Axe" type="Weapon" source="Homebrew" id="ID_ABCII_HOMEBREW_WEAPON_BOARDINGAXE">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_PROPERTY_VERSATILE,ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_BOARDINGAXE,ID_INTERNAL_WEAPON_PROPERTY_SPECIAL,ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_PROPERTY_VERSATILE,ID_INTERNAL_WEAPON_GROUP_AXES</supports>
 		<description>
 			<p>The Boarding Axe is an irreplacable utility all ships on the seas need. With an incredibly sharp blade, it does 2d8/2d10 damage to structures.</p>
-			<div element="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_BOARDINGAXE" />
 		</description>
 		<setters>
 			<set name="category">Weapons</set>
