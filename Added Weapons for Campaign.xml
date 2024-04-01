@@ -36,9 +36,10 @@
 	</append>
 	</element>
 	<element name="Boarding Axe" type="Weapon" source="Homebrew" id="ID_ABCII_HOMEBREW_WEAPON_BOARDINGAXE">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE,ID_INTERNAL_WEAPON_PROPERTY_HULLBREAKER, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_PROPERTY_VERSATILE,ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_HULLBREAKER,ID_INTERNAL_WEAPON_PROPERTY_SPECIAL,ID_INTERNAL_WEAPON_GROUP_AXES</supports>
 		<description>
-			<p>The Boarding Axe is an irreplacable ustility all ships on the seas need. With an incredibly sharp blade, it does 2d8/2d10 damage to structures.</p>
+			<p>The Boarding Axe is an irreplacable utility all ships on the seas need. With an incredibly sharp blade, it does 2d8/2d10 damage to structures.</p>
+			<div element="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_HULLBREAKER" />
 		</description>
 		<setters>
 			<set name="category">Weapons</set>
@@ -47,7 +48,6 @@
 			<set name="slot">onehand</set>
 			<set name="damage" type="slashing">1d6</set>
 			<set name="versatile">1d10</set>
-			<set name="hullbreaker">2d8, 2d10</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_BOARDINGAXE</set>
 		</setters>
 	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
