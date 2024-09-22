@@ -514,4 +514,92 @@
 			<description> With the assistance of your psionic abilities, you are able to work around your mandibles in order to communicate with others unlike your own. You have the ability to speak telepathically to any and all creatures within 60 feet of you regardless of shared languages. You can't learn or speak any other languages</description>
 		</sheet>
 	</element>
+	<element name="Reborn" type="Race" source="Homebrew" id="ID_ABCII_HOMEBREW_RACE_GIFF">
+		<description>
+			<p>Reborn suffer from some manner of discontinuity, an interruption of their lives or physical state that their minds are ill equipped to deal with. Their memories of events before this interruption are often vague or absent. Occasionally, the most unexpected experiences might cause sensations or visions of the past to come rushing back. Rather than sleeping, reborn regularly sit and dwell on the past, hoping for some revelation of what came before. Most of the time, these are dark, silent stretches. Occasionally, though, in a moment of peace, stress, or excitement, a reborn gains a glimpse of what came before. When you desire to have such a dreamlike vision, roll on the Lost Memories table to inspire its details. </p>
+			<table>
+				<thead>
+					<tr><td>d6</td><td>Lost Memories</td></tr>
+				</thead>
+				<tr><td>1</td><td>You recall a physically painful moment. What mark or scar on your body does it relate to?</td></tr>
+				<tr><td>2</td><td>A memory brings tears to your eyes. Is it a bitter or cheerful memory? Does recalling it make you feel the same way?</td></tr>
+				<tr><td>3</td><td>You recall a childhood memory. What about that event or who you were still influences you?</td></tr>
+				<tr><td>4</td><td>A memory brings with it the voice of someone once close to you. How do they advise you?</td></tr>
+				<tr><td>5</td><td>You recall enjoying something that you can’t stand doing now. What is it? Why don’t you like it now?</td></tr>
+				<tr><td>6</td><td>A memory carries a vivid smell or sensation. What are you going to do to recreate that experience?</td></tr>
+			</table>
+			<h4>REBORN ORIGINS</h4>
+			<p>Reborn might originate from circumstances similar to those of various undead or constructs. The Reborn Origins table provides suggestions for how your character became reborn.</p>
+			<table>
+				<thead>
+					<tr><td>d8</td><td>Reborn Origins</td></tr>
+				</thead>
+				<tr><td>1</td><td>You were magically resurrected but something went wrong.</td></tr>
+				<tr><td>2</td><td>Stitches bind your body’s mismatched pieces, and your memories come from multiple different lives.</td></tr>
+				<tr><td>3</td><td>After clawing free from your grave, you realized you have no memories except for a single name.</td></tr>
+				<tr><td>4</td><td>You were a necromancer’s undead servant for years. One day, your consciousness returned.</td></tr>
+				<tr><td>5</td><td>You awoke in an abandoned laboratory alongside complex designs for clockwork organs.</td></tr>
+				<tr><td>6</td><td>You awoke in an abandoned laboratory alongside complex designs for clockwork organs.</td></tr>
+				<tr><td>7</td>You awoke in an abandoned laboratory alongside complex designs for clockwork organs.<td></td></tr>
+				<tr><td>8</td>You awoke in an abandoned laboratory alongside complex designs for clockwork organs.<td></td></tr>
+			</table>
+			<h4>REBORN TRAITS</h4>
+			<p>Your Reborn character has the following racial traits:</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong>Increase one ability score by 2 and increase a different one by 1, or increase three different ability scores by 1. If you are replacing your race with this lineage, replace any Ability Score Increase you previously had with this.</p>
+			<p class="indent"><strong><em>Size.</em></strong>You are Medium or Small. You choose the size when you gain this lineage.</p>
+			<p class="indent"><strong><em>Speed.</em></strong>Your walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Ancestral Legacy.</em></strong>If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.</p>
+		<ul>
+			<li>If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.</li>
+		</ul>
+			<p class="indent"><strong><em>Deathless Nature.</em></strong>You have escaped death, a fact represented by the following benefits:</p>		
+		<ul>
+			<li>You have advantage on saving throws against disease and being poisoned, and you have resistance to poison damage.</li>
+			<li>You have advantage on death saving throws.</li>
+			<li>You don’t need to eat, drink, or breathe.</li>
+			<li>You don’t need to sleep, and magic can’t put you to sleep. You can finish a long rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness.</li>
+		</ul>
+			<p class="indent"><strong><em>Knowledge from a Past Life.</em></strong>You temporarily remember glimpses of the past, perhaps faded memories from ages ago or a previous life. When you make an ability check that uses a skill, you can roll a d6 immediately after seeing the number on the d20 and add the number on the d6 to the check. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<p class="indent"><strong><em>Languages.</em></strong>You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. If you are replacing your race with this lineage, you retain any languages you had and gain no new languages.</p>
+		</description>
+		<rules>
+ 			<select type="Ability Score Improvement" name="Ability Score Increase, Reborn" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA|ID_INTERNAL_ASI_CONSTITUTION" />
+			<select type="Ability Score Improvement" name="Ability Score Increase, Reborn" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA|ID_INTERNAL_ASI_CONSTITUTION" />
+			<select type="Ability Score Improvement" name="Ability Score Increase, Reborn" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA|ID_INTERNAL_ASI_CONSTITUTION" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />	
+			<stat name="innate speed" value="30" bonus="base" />	
+			<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_REBORN_ANCESTRALLEGACY" />
+			<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_REBORN_DEATHLESSNATURE" />
+			<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_REBORN_KNOWLEDGEFROMAPASTLIFE" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+		</rules>
+	</element>
+	<element name="Ancestral Legacy." type="Racial Trait" source="HOMEBREW" id="ID_ABCII_HOMEBREW_RACIALTRAIT_REBORN_ANCESTRALLEGACY">
+		<description>
+			<p>If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.</p>
+		</description>
+		<sheet>
+			<description>Your psychic connection to the Astral Sea enables you to mystically access a spark of divine power, which you can channel through your weapons. When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest.</description>
+		</sheet>
+	</element>
+	<element name="Firearm Mastery" type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_GIFF_FIREARMMASTERY">
+		<description>
+			<p>You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn't impose disadvantage on your attack roll.</p>
+		</description>
+		<sheet>
+			<description>You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn't impose disadvantage on your attack roll.</description>	
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_FIREARMS"/>
+		</rules>	
+	</element>
+	<element name="Hippo Build." type="Racial Trait" source="HOMEBREW" id="ID_ABCII_HOMEBREW_RACIALTRAIT_GIFF_HIPPOBUILD">
+		<description>
+			<p>You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+		</sheet>
+	</element>
 </elements>
