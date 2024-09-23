@@ -606,8 +606,9 @@
 		<sheet>
 			<description>You temporarily remember glimpses of the past, perhaps faded memories from ages ago or a previous life. When you make an ability check that uses a skill, you can roll a d6 immediately after seeing the number on the d20 and add the number on the d6 to the check. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</description>
 		</sheet>
+	</element>
 	<element name="Reborn" type="Lineage" source="Van Richten's Guide to Ravenloft" id="ID_ABCII_WOTC_LINEAGE_REBORN">
-		<supports>Elf</supports>
+		<supports>Human</supports>
         <description>
         	<p>Reborn suffer from some manner of discontinuity, an interruption of their lives or physical state that their minds are ill equipped to deal with. Their memories of events before this interruption are often vague or absent. Occasionally, the most unexpected experiences might cause sensations or visions of the past to come rushing back. Rather than sleeping, reborn regularly sit and dwell on the past, hoping for some revelation of what came before. Most of the time, these are dark, silent stretches. Occasionally, though, in a moment of peace, stress, or excitement, a reborn gains a glimpse of what came before. When you desire to have such a dreamlike vision, roll on the Lost Memories table to inspire its details. </p>
 			<table>
@@ -636,57 +637,66 @@
 				<tr><td>7</td>You awoke in an abandoned laboratory alongside complex designs for clockwork organs.<td></td></tr>
 				<tr><td>8</td>You awoke in an abandoned laboratory alongside complex designs for clockwork organs.<td></td></tr>
 			</table>
-        	<h4>REBORN TRAITS</h4>
-            	<p>Sea elves have the following traits in common, in addition to the traits they share with other elves.</p>
-            	<p class="indent"><b><i>Ability Score Increase. </i></b>Your Constitution score increases by 1. </p>
-            	<p class="indent"><b><i>Sea Elf Training. </i></b>You have proficiency with the spear, trident, light crossbow, and net.</p>
-            	<p class="indent"><b><i>Child of the Sea. </i></b>You have a swimming speed of 30 feet, and you can breathe air and water.</p>
-            	<p class="indent"><b><i>Friend of the Sea. </i></b>Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming speed.</p>
-            	<p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Aquan.</p>
+        		<h4>REBORN TRAITS</h4>
+            		<p>Your Reborn character has the following racial traits:</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong>Increase one ability score by 2 and increase a different one by 1, or increase three different ability scores by 1. If you are replacing your race with this lineage, replace any Ability Score Increase you previously had with this.</p>
+			<p class="indent"><strong><em>Size.</em></strong>You are Medium or Small. You choose the size when you gain this lineage.</p>
+			<p class="indent"><strong><em>Speed.</em></strong>Your walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Ancestral Legacy.</em></strong>If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.</p>
+			<ul>
+				<li>If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.</li>
+			</ul>
+			<p class="indent"><strong><em>Deathless Nature.</em></strong>You have escaped death, a fact represented by the following benefits:</p>		
+			<ul>
+				<li>You have advantage on saving throws against disease and being poisoned, and you have resistance to poison damage.</li>
+				<li>You have advantage on death saving throws.</li>
+				<li>You don’t need to eat, drink, or breathe.</li>
+				<li>You don’t need to sleep, and magic can’t put you to sleep. You can finish a long rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness.</li>
+			</ul>
+			<p class="indent"><strong><em>Knowledge from a Past Life.</em></strong>You temporarily remember glimpses of the past, perhaps faded memories from ages ago or a previous life. When you make an ability check that uses a skill, you can roll a d6 immediately after seeing the number on the d20 and add the number on the d6 to the check. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<p class="indent"><strong><em>Languages.</em></strong>You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. If you are replacing your race with this lineage, you retain any languages you had and gain no new languages.</p>
         </description>
         <sheet display="false" />
         <rules>
-        <select type="Ability Score Improvement" name="Ability Score Increase, Reborn" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA|ID_INTERNAL_ASI_CONSTITUTION" />
-	<select type="Ability Score Improvement" name="Ability Score Increase, Reborn" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA|ID_INTERNAL_ASI_CONSTITUTION" />
-	<select type="Ability Score Improvement" name="Ability Score Increase, Reborn" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA|ID_INTERNAL_ASI_CONSTITUTION" />
-            <grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_SEA_ELF_WEAPON_TRAINING" />
-            <grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_SEA_ELF_CHILD_OF_THE_SEA" />
-            <grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_SEA_ELF_FRIEND_OF_THE_SEA" />
-            <grant type="Language" id="ID_MM_LANGUAGE_AQUAN" />
+        	<select type="Ability Score Improvement" name="Ability Score Increase, Reborn" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA|ID_INTERNAL_ASI_CONSTITUTION" />
+		<select type="Ability Score Improvement" name="Ability Score Increase, Reborn" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA|ID_INTERNAL_ASI_CONSTITUTION" />
+		<select type="Ability Score Improvement" name="Ability Score Increase, Reborn" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA|ID_INTERNAL_ASI_CONSTITUTION" />
+          	<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_REBORN_ANCESTRALLEGACY" />
+		<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_REBORN_DEATHLESSNATURE" />
+		<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_REBORN_KNOWLEDGEFROMAPASTLIFE" />
         </rules>
-    </element>
-    <element name="Sea Elf Training" type="Racial Trait" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_SEA_ELF_WEAPON_TRAINING">
-        <description>
-            <p>You have proficiency with the spear, trident, light crossbow, and net.</p>
-        </description>
-        <sheet display="false">
-            <description>You have proficiency with the spear, trident, light crossbow, and net.</description>
-        </sheet>
-        <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" />
-        </rules>
-    </element>
-    <element name="Child of the Sea" type="Racial Trait" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_SEA_ELF_CHILD_OF_THE_SEA">
-        <description>
-            <p>You have a swimming speed of 30 feet, and you can breathe air and water.</p>
-        </description>
-        <sheet>
-            <description>You have a swimming speed of 30 feet, and you can breathe air and water.</description>
-        </sheet>
-        <rules>
-            <stat name="innate speed:swim" value="30" bonus="base" />
-        </rules>
-    </element>
-    <element name="Friend of the Sea" type="Racial Trait" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_SEA_ELF_FRIEND_OF_THE_SEA">
-        <description>
-            <p>Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming speed.</p>
-        </description>
-        <sheet>
-            <description>Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming speed.</description>
-        </sheet>
-    </element>	
+    	</element>
+	<element name="Ancestral Legacy." type="Racial Trait" source="HOMEBREW" id="ID_ABCII_HOMEBREW_RACIALTRAIT_REBORN_ANCESTRALLEGACY">
+		<description>
+			<p>If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.</p>
+		</description>
+		<ul>
+			<li>If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.</li>
+		</ul>
+		<sheet>
+			<description>If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.</description>
+		</sheet>
+	</element>
+  	<element name="Deathless Nature" type="Racial Trait" source="Homebrew" id="ID_ABCII_HOMEBREW_RACIALTRAIT_REBORN_DEATHLESSNATURE">
+		<description>
+			<p>You have escaped death, a fact represented by the following benefits:</p>
+		</description>
+		<ul>
+			<li>You have advantage on saving throws against disease and being poisoned, and you have resistance to poison damage.</li>
+			<li>You have advantage on death saving throws.</li>
+			<li>You don’t need to eat, drink, or breathe.</li>
+			<li>You don’t need to sleep, and magic can’t put you to sleep. You can finish a long rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness.</li>
+		</ul>
+		<sheet>
+			<description>You have escaped death, a fact represented by the following benefits:</description>	
+		</sheet>
+	</element>
+    	<element name="Knowledge from a Past Life" type="Racial Trait" source="HOMEBREW" id="ID_ABCII_HOMEBREW_RACIALTRAIT_REBORN_KNOWLEDGEFROMAPASTLIFE">
+		<description>
+			<p>You temporarily remember glimpses of the past, perhaps faded memories from ages ago or a previous life. When you make an ability check that uses a skill, you can roll a d6 immediately after seeing the number on the d20 and add the number on the d6 to the check. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>You temporarily remember glimpses of the past, perhaps faded memories from ages ago or a previous life. When you make an ability check that uses a skill, you can roll a d6 immediately after seeing the number on the d20 and add the number on the d6 to the check. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</description>
+		</sheet>
 	</element>
 </elements>
