@@ -139,7 +139,7 @@
 				<p class="indent"><strong><em>Speed.</em></strong>Your base walking speed is 25 feet. You also have a swimming speed of 30 feet.</p>
 				<p class="indent"><strong><em>Breath of the Sea.</em></strong> You can breathe both air and water.</p>
 				<p class="indent"><strong><em>Natural Armor.</em></strong> While you wear no armor, your AC is equal to 13 + your Constitution modifier.</p>		
-				<p class="indent"><strong><em>Crustacean Build</em></strong>You get a wide range of claws you get to choose from:</p>
+				<p class="indent"><strong><em>Crustacean Build.</em></strong>You get a wide range of claws you get to choose from:</p>
 				<p class="indent"> Choose which type of claws your Crabfolk character has:</p>
 				<p><strong>Crushing Claws.</strong>Your claws are large and blunted with rigdes all along the inside that gives your unarmed strikes 1d4 worth of bludgeoning damage, you also add +3 to any grapple you attempt to make. You have proficiency in unarmed strikes.</p>
 				<p><strong>Rending Claws.</strong>Your claws are pointed ane more narrow with sharp spikes along the inside that gives your unamred strikes that deal 1d8 worth of slashing damage, you may also use your dexterity modifier for unarmed strike rolls. you have proficiency in unarmed strikes.</p>
@@ -513,7 +513,7 @@
 			<description> With the assistance of your psionic abilities, you are able to work around your mandibles in order to communicate with others unlike your own. You have the ability to speak telepathically to any and all creatures within 60 feet of you regardless of shared languages. You can't learn or speak any other languages</description>
 		</sheet>
 	</element>
-	<element name="Reborn" type="Race" source="Homebrew" id="ID_ABCII_HOMEBREW_RACE_GIFF">
+	<element name="Reborn" type="Race" source="Homebrew" id="ID_ABCII_HOMEBREW_RACE_REBORN">
 		<description>
 			<p>Reborn suffer from some manner of discontinuity, an interruption of their lives or physical state that their minds are ill equipped to deal with. Their memories of events before this interruption are often vague or absent. Occasionally, the most unexpected experiences might cause sensations or visions of the past to come rushing back. Rather than sleeping, reborn regularly sit and dwell on the past, hoping for some revelation of what came before. Most of the time, these are dark, silent stretches. Occasionally, though, in a moment of peace, stress, or excitement, a reborn gains a glimpse of what came before. When you desire to have such a dreamlike vision, roll on the Lost Memories table to inspire its details. </p>
 			<table>
@@ -658,6 +658,7 @@
         </description>
         <sheet display="false" />
         <rules>
+		<grant type="Grants" id="ID_ABCII_WOTC_LINEAGE_REBORN" />
         	<select type="Ability Score Improvement" name="Ability Score Increase, Reborn" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA|ID_INTERNAL_ASI_CONSTITUTION" />
 		<select type="Ability Score Improvement" name="Ability Score Increase, Reborn" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA|ID_INTERNAL_ASI_CONSTITUTION" />
 		<select type="Ability Score Improvement" name="Ability Score Increase, Reborn" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA|ID_INTERNAL_ASI_CONSTITUTION" />
