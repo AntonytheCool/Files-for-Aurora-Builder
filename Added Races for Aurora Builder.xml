@@ -658,7 +658,7 @@
         </description>
         <sheet display="false" />
         <rules>
-		<grant type="Lineage" id="ID_ABCII_WOTC_LINEAGE_REBORN" />
+		<select type="Lineage" name="Reborn" supports="Human" />
         	<select type="Ability Score Improvement" name="Ability Score Increase, Reborn" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA|ID_INTERNAL_ASI_CONSTITUTION" />
 		<select type="Ability Score Improvement" name="Ability Score Increase, Reborn" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA|ID_INTERNAL_ASI_CONSTITUTION" />
 		<select type="Ability Score Improvement" name="Ability Score Increase, Reborn" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA|ID_INTERNAL_ASI_CONSTITUTION" />
