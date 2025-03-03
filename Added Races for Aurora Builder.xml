@@ -129,32 +129,32 @@
 					<li>The secondary set of claws can't weild any weapons and magic items along with only lifting below or at 5 pounds.</li>	
 			</ul>
 				<h4>SOCIETAL PREJUDICES</h4>
-				<p>Most land dwelling races tend to have some caution towards Crabfolk do to their unexpressive faces and monsterous appearance, to such an extent that some establishments ban them for the comfort of others. While primarily land dwelling races aren't comfortable around Crabfolk, sea dwelling races hold the Crabfolk in high regard recognizing their strength and fortitude.</p>
+				<p>Most land dwelling races tend to have some caution towards Crabfolk due to their unexpressive faces and monsterous appearance, to such an extent that some establishments ban them for it. While primarily land dwelling races aren't comfortable around Crabfolk, sea dwelling races hold the Crabfolk in high regard recognizing their strength and fortitude.</p>
 				<h4>CRABFOLK TRAITS</h4>
 				<p>Your Crabfolk character has the following racial traits:</p>
 				<p class="indent"><strong><em>Ability Score Increase.</em></strong> Crabfolk are very hearty due to their rough living. Your Constitution score is increased by 2, and your Strength or dexterity score increases by 1.</p>
-				<p class="indent"><strong><em>Age.</em></strong>Crabfolk are considered adults by their late teens and can live for around 150 years.</p>
-				<p class="indent"><strong><em>Alignment.</em></strong>Crabfolk can take nearly any path in life that they feel suits them, though most tend to be neutral.</p>
-				<p class="indent"><strong><em>Size.</em></strong>Crabfolk can stand anywhere from 4 to 6 feet tall, though some older ones can get taller. Your size is Medium.</p>
-				<p class="indent"><strong><em>Speed.</em></strong>Your base walking speed is 25 feet. You also have a swimming speed of 30 feet.</p>
+				<p class="indent"><strong><em>Age.</em></strong> Crabfolk are considered adults by their late teens and can live for around 150 years.</p>
+				<p class="indent"><strong><em>Alignment.</em></strong> Crabfolk can take nearly any path in life that they feel suits them, though most tend to be neutral.</p>
+				<p class="indent"><strong><em>Size.</em></strong> Crabfolk can stand anywhere from 4 to 6 feet tall, though some older ones can get taller. Your size is Medium.</p>
+				<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet. You also have a swimming speed of 30 feet.</p>
 				<p class="indent"><strong><em>Breath of the Sea.</em></strong> You can breathe both air and water.</p>
 				<p class="indent"><strong><em>Natural Armor.</em></strong> While you wear no armor, your AC is equal to 13 + your Constitution modifier.</p>		
-				<p class="indent"><strong><em>Crustacean Build.</em></strong>You get a wide range of claws you get to choose from:</p>
+				<p class="indent"><strong><em>Crustacean Build.</em></strong> You get a wide range of claws you get to choose from:</p>
 				<p class="indent"> Choose which type of claws your Crabfolk character has:</p>
-				<p><strong>Crushing Claws.</strong>Your claws are large and blunted with rigdes all along the inside that gives your unarmed strikes 1d4 worth of bludgeoning damage, you also add +3 to any grapple you attempt to make. You have proficiency in unarmed strikes.</p>
-				<p><strong>Rending Claws.</strong>Your claws are pointed ane more narrow with sharp spikes along the inside that gives your unamred strikes that deal 1d8 worth of slashing damage, you may also use your dexterity modifier for unarmed strike rolls. you have proficiency in unarmed strikes.</p>
-				<p><strong>Punching Claws.</strong>Your claws are completley blunted and can't be used to grab or hold anything but deal 1d8 worth of bludgeoning damage and gain +1 in strength.you have proficiency in unarmed strikes.</p>
-				<p><strong>Shooting Claws.</strong>Your claws can snap at such extreme speeds it condenses the air (or water) in your claws it shoots out creating a projectile that can travel up 15 Ft away and deals 1d6 force damage.</p>
-				<p><strong>Dextrous Claws.</strong>Your claws are small but incredibly articulated, allowing you to use them as if they were normal hands. they can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands but lose proficiency in unarmed strikes.</p>
+				<p><strong>Crushing Claws.</strong> Your claws are large and blunted with rigdes all along the inside that gives your unarmed strikes 1d4 worth of bludgeoning damage, you also add +3 to any grapple you attempt to make. You have proficiency in unarmed strikes.</p>
+				<p><strong>Rending Claws.</strong> Your claws are pointed ane more narrow with sharp spikes along the inside that gives your unamred strikes that deal 1d8 worth of slashing damage, you may also use your dexterity modifier for unarmed strike rolls. you have proficiency in unarmed strikes.</p>
+				<p><strong>Punching Claws.</strong> Your claws are completley blunted and can't be used to grab or hold anything but deal 1d8 worth of bludgeoning damage and gain +1 in strength.you have proficiency in unarmed strikes.</p>
+				<p><strong>Shooting Claws.</strong> Your claws can snap at such extreme speeds it condenses the air (or water) in your claws it shoots out creating a projectile that can travel up 15 Ft away and deals 1d6 force damage.</p>
+				<p><strong>Dextrous Claws.</strong> Your claws are small but incredibly articulated, allowing you to use them as if they were normal hands. they can wield weapons, sheilds, and magic weapons with them. you also gain proficiency in sleight of hands but lose proficiency in unarmed strikes.</p>
 				<p class="indent"><strong><em>Dweller of the Deeps.</em></strong> Accustomed to the deepest seas, you ignore any of the drawbacks caused by a deep, underwater environment.</p>
-				<p class="indent"><strong><em>Languages.</em></strong>You can speak, read, and write Common and Aquan.</p>
+				<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Aquan.</p>
 			</description>
 			<rules>
 				<stat name="constitution" value="2" />
 				<select type="Ability Score Improvement" name="Ability Score Increase (Crabfolk)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY"	/>
 				<stat name="innate speed" value="25" bonus="base" />
-				<grant type="size" id="ID_SIZE_MEDIUM"/>
 				<stat name="innate speed:swim" value="30" bonus="base" />
+				<grant type="size" id="ID_SIZE_MEDIUM"/>
 				<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_CRUSTACEANBUILD" />
 				<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_NATURALARMOR" />
 				<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_CRABFOLK_DWELLEROFTHEDEEPS" />
