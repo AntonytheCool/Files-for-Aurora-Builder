@@ -45,12 +45,12 @@
 				<select type="Ability Score Improvement" name="Ability Score Increase, Autognome" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA|ID_INTERNAL_ASI_CONSTITUTION" />
 				<grant type="Size" id="ID_SIZE_SMALL" />
 				<stat name="innate speed" value="30" bonus="base" />
+				<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACAILTRAIT_AUTOGNOME_BUILTFORSUCCESS" />
 				<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_AUTOGNOME_HEALINGMACHINE" />
 				<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_AUTOGNOME_MECHANICALNATURE" />
 				<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_AUTOGNOME_SENTRYSREST" />
 				<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_AUTOGNOME_ARMOREDCASING" />
 				<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACIALTRAIT_AUTOGNOME_SPECIALIZEDDESIGN" />
-				<grant type="Racial Trait" id="ID_ABCII_HOMEBREW_RACAILTRAIT_AUTOGNOME_BUILTFORSUCCESS" />
 				<grant type="Language" id="ID_LANGUAGE_COMMON" />
 				<grant type="Language" id="ID_LANGUAGE_GNOMISH" />
 				<select type="Language" name="Language, Autognome" supports="Standard||Exotic" />
