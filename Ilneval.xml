@@ -1,0 +1,15 @@
+<element name="Ilneval" type="Deity" source="Player’s Handbook" id="ID_WOTC_PHB_DEITY_Ilneval">
+		<description>
+			<p class="flavor">The Crafty Warrior</p>
+		</description>
+		<setters>
+			<set name="setting">Nishrek</set>
+			<set name="alignment">LE</set>
+			<set name="domains">War</set>
+			<set name="symbol">Upright, Bloodied Sword</set>
+			<set name="gender"Male</set>
+		</setters>
+		<sheet>
+			<description>Orc God of Strategy</description>
+		</sheet>
+	</element>
